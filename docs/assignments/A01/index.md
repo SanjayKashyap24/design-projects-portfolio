@@ -45,6 +45,8 @@ The above picture is of the metal finger handles in parallel in the extended for
 The original engineer designed the bending side of the triangular tube component to have a slight curve inward. This is likely a decision that improved the elastic rebound of the clip.
 
 ## Decide
+### Homepage Identity
+The primary purpose of an engineering portfolio is to present projects clearly for quick review and analysis. Because potential employers typically skim portfolios, the homepage highlights essential details—such as my name and a preview of final project results—before visitors navigate the side menu. Clicking a project thumbnail takes the reader directly to its detailed documentation, while the homepage also provides a brief overview of the site's navigation.
 
 
 ## Communicate
