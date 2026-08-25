@@ -9,4 +9,4 @@ Outside of the classroom, I actively apply my engineering knowledge as a member 
 To me, being an engineer means actively contributing to the future of society. Almost every object, product, or system we interact with in our daily lives exists because an engineer took the time to analyze, design, and optimize it. For instance, consider something as ordinary as a bed. An industrial engineer designed the specialized textile manufacturing equipment that processes and weaves threads into soft bed sheets, while a mechanical engineer designed the durable structural frame that securely supports the mattress. Engineering seamlessly connects subtle everyday conveniences to immense technological breakthroughs.
 
 
-I genuinely spent 8 hours completing this assignment.
+I spent 8 hours completing this assignment.
