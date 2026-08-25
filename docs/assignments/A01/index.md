@@ -5,7 +5,7 @@ The Objective is to successfully create an online portfolio that I can upload al
 
 ## Analyze
 #### Task A: Portfolio analysis
-###### Portfolio 1: https://3-d-portfolio-lilac-xi.vercel.app/#work
+###### Portfolio 1: [Link](https://3-d-portfolio-lilac-xi.vercel.app/#work)
 
 This online portfolio is excellently organized, making it easy for users to navigate and view the portfolio owner’s skills, projects, and previous experience as they scroll through the page. The short animations used to introduce the owner’s information add a polished and engaging element to the design, demonstrating a level of effort and attention to detail that is often lacking in online portfolios. Additionally, the navigation bar in the top-right corner allows users to quickly access whichever section they are interested in. Another feature I particularly like is the way the projects are presented. When users click the small spaceship icon in the top-left corner of a project, the project opens and runs in a new tab. Clicking the GitHub logo in the top-right corner takes users to the project’s GitHub repository, where they can see how the project was created. Although the projects do not explicitly explain the reasoning behind the design decisions, the information is organized in a way that may allow some users to understand why the project was developed as it was.
 
