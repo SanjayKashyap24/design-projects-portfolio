@@ -41,6 +41,9 @@ The above picture is of the metal finger handles in parallel in the extended for
 * A hair pin could be used in a similar manner as a paper clip.
 * A stapler and staple could staple paper together and permanently bunch them together.
 
+###### Design Decisions
+The original engineer designed the bending side of the triangular tube component to have a slight curve inward. This is likely a decision that improved the elastic rebound of the clip.
+
 ## Decide
 
 
