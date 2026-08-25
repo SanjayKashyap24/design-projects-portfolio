@@ -26,7 +26,7 @@ The patent chosen was for a binder clip. The primary purpose of this product is 
 <p>F = Force</p>
 <p>d = Distance</p>
 
-For this model to work, it must be assumed that the body of the binder clip remains within its elastic range so that it can return to its original shape.
+For this model to work, it must be assumed that the body of the binder clip remains within its elastic range so that it can return to its original shape. The metal finger grips extend from the back of the clip and provide a longer lever arm, making it easier to open and close the clamp. The grips can also rotate so that they can be positioned parallel to the paper, similar to how the handle of a nail clipper can be repositioned for use.
 
 
 
