@@ -13,6 +13,17 @@ This online portfolio is excellently organized, making it easy for users to navi
 
 This online portfolio is similar to the first portfolio analyzed in that it allows users to scroll through the entire page while also providing a navigation bar at the top to quickly jump between different sections. One aspect I particularly like is that pictures of the portfolio owner’s projects are among the first things presented to the viewer. However, when you hover over the project images, they only provide a brief one- or two-sentence description of each project. As a result, there is little opportunity to learn more about the projects, understand the decision-making process behind them, or examine how they were designed and developed beyond what can be seen in the images. Overall, the portfolio maintains a fairly professional tone and presentation.
 
+#### Task B: Product Analysis
+
+###### Patent Chosen: US5265890A
+###### Inventor: Peter J. Balsells
+
+The patent chosen was a seal with a spring energizer. I chose this patent because it was related to the undergraduate research participated in over the summer of 2026. The primary purpose of this seal is to seal axially between two moving surfaces by maintaining a constant pressure via the energy from the spring.
+
+
+
+
+
 ## Decide
 
 
