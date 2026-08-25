@@ -20,9 +20,9 @@ This online portfolio is similar to the first portfolio analyzed in that it allo
 
 The patent chosen was a seal with a spring energizer. I chose this patent because it was related to the undergraduate research participated in over the summer of 2026. The primary purpose of this seal is to prevent fluid leakage between two moving surfaces by using a spring to maintain constant pressure between the seal mating surface. The governing principle behind this seal is Hooke's Law.
 <p align="center">
-  <b>F<sub>s</sub> = k&x;</b>
+  <b>F<sub>s</sub> = kx;</b>
 </p>
-The force that the spring exerts onto the seal is equal to the spring constant "k" multiplied by the spring's deflection. As the spring is compressed, the more potential energy is stored in the spring, and it exerts a greater force against the mating surface.
+The force that the spring exerts onto the seal is equal to the spring constant "k" multiplied by the spring's deflection "x". As the spring is compressed, the more potential energy is stored in the spring, and it exerts a greater force against the mating surface.
 
 ![Seal patent photo 1](image-SpringSealPatentPhoto1.jpg)
 
