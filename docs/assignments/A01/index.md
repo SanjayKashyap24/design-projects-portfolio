@@ -20,7 +20,7 @@ This online portfolio is similar to the first portfolio analyzed in that it allo
 
 The patent chosen was a seal with a spring energizer. I chose this patent because it was related to the undergraduate research participated in over the summer of 2026. The primary purpose of this seal is to seal axially between two moving surfaces by maintaining a constant pressure via the energy from the spring.
 
-![seal patent photo 1](image_Spring_Energized_Seal_Patent_Picture_1.jpg)
+![Seal patent photo 1](images/image-SpringSealPatentPhoto1.jpg)
 
 
 
