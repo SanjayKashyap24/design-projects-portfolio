@@ -28,8 +28,18 @@ The patent chosen was for a binder clip. The primary purpose of this product is 
 
 For this model to work, it must be assumed that the body of the binder clip remains within its elastic range so that it can return to its original shape. The metal finger grips extend from the back of the clip and provide a longer lever arm, making it easier to open and close the clamp. The grips can also rotate so that they can be positioned parallel to the paper, similar to how the handle of a nail clipper can be repositioned for use.
 
+![Seal patent photo 1](image-PaperClipPhoto1.jpeg)
+
+The image above shows the metal clamp component. This is the part of the binder clip that bends when the clip is opened and then uses its elastic rebound to apply a clamping force and hold the paper together. The clip has a roughly triangular tubular shape, with the opening of the clamp forming one corner. The clamp opens and closes because the side opposite the opening bends when force is applied.
+
 ![Clap Photo 2](image-PaperClipPhoto2.jpeg)
 
+The above picture is of the metal finger handles in parallel in the extended forward position they are meant to be in when clamped to the paper. The handles are attached to the clamp and can rotate around their attachment points. This allows the handles to be positioned along the sides of the triangular clip body, making them easier to grip. When the handles are squeezed together, they apply a force to the sides of the clip body, causing the clamp to bend and open. The length of the handles also provides a lever arm that allows the user to open the clamp with less force.
+
+###### Alternatives to a binger clamp
+* A paper clip can more easily be used when dealing with smaller amounts of paper.
+* A hair pin could be used in a similar manner as a paper clip.
+* A stapler and staple could staple paper together and permanently bunch them together.
 
 ## Decide
 
