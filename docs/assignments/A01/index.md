@@ -26,7 +26,7 @@ The force that the spring exerts onto the seal is equal to the spring constant "
 
 ![Seal patent photo 1](image-SpringSealPatentPhoto1.jpg)
 
-
+Above is a picture of the spring energized seal from the official patent document. As seen in the picture, the spring is inside the seal jacket and exerts force against the inner walls of the seal jacket, transferring that force onto the mating surface. For this model to be valid, it can be assumed that the spring in the seal acts closely to an ideal spring so that Hooke's Law may still be applied.
 
 
 
