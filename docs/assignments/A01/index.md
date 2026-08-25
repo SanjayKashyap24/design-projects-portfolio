@@ -15,18 +15,18 @@ This online portfolio is similar to the first portfolio analyzed in that it allo
 
 #### Task B: Product Analysis
 
-###### Patent Chosen: US5265890A
-###### Inventor: Peter J. Balsells
+###### Patent Chosen: US7120969B2
+###### Inventor: David R. Carls
 
-The patent chosen was a seal with a spring energizer. I chose this patent because it was related to the undergraduate research participated in over the summer of 2026. The primary purpose of this seal is to prevent fluid leakage between two moving surfaces by using a spring to maintain constant pressure between the seal mating surface. The governing principle behind this seal is Hooke's Law.
+The patent chosen was for a binder clip. The primary purpose of this product is to apply parallel and oppositely facing forces to clamp paper together. The governing model for this is the moment equation.
 <p align="center">
-  <b>F<sub>s</sub> = kx;</b>
+  <b>M<sub>s</sub> = Fd;</b>
 </p>
-The force that the spring exerts onto the seal is equal to the spring constant "k" multiplied by the spring's deflection "x". As the spring is compressed, the more potential energy is stored in the spring, and it exerts a greater force against the mating surface.
+<p>M = Moment</p>
+<p>F = Force</p>
+<p>d = Distance</p>
 
-![Seal patent photo 1](image-SpringSealPatentPhoto1.jpg)
-
-Above is a picture of the spring energized seal from the official patent document. As seen in the picture, the spring is inside the seal jacket and exerts force against the inner walls of the seal jacket, transferring that force onto the mating surface. For this model to be valid, it can be assumed that the spring in the seal acts closely to an ideal spring so that Hooke's Law may still be applied.
+For this model to work, it must be assumed that the body of the binder clip remains within its elastic range so that it can return to its original shape.
 
 
 
