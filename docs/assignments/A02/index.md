@@ -47,7 +47,7 @@ The two things I immediately thought of when I was deciding how to design my tru
   <p>B<sub>y</sub>(3a) = P(a − 2a)</p>
   <p>B<sub>y</sub>(3a) = P(−a)</p>
   <p style="text-align: center; font-weight: bold; display: block;">
-    <span style="display: inline-block; border: 1px solid #000; padding: 4px 12px;">B<sub>y</sub> = −P ⋅(1/3)</span>
+    <span style="display: inline-block; border: 1px solid #000; padding: 4px 12px;">B<sub>y</sub> = −P (1/3)</span>
   </p>
 
 </div>
