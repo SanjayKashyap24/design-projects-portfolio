@@ -25,7 +25,28 @@ The two things I immediately thought of when I was deciding how to design my tru
   <p style="display: inline-block; border: 1px solid #000; padding: 4px 12px; margin: 8px 0; font-weight: normal;">x = 5</p>
 </div>
 
+Picture of truss
 
+<div style="text-align: left;">
+
+  <p><b>ΣF<sub>y</sub></b> = 0 = A<sub>y</sub> + B<sub>y</sub> − P + P</p>
+  <p style="text-align: center; font-weight: bold; display: block;">
+    <span style="display: inline-block; border: 1px solid #000; padding: 4px 12px;">A<sub>y</sub> = −B<sub>y</sub></span>
+  </p>
+
+  <p><b>ΣF<sub>x</sub></b> = 0 = A<sub>x</sub></p>
+  <p style="text-align: center; font-weight: bold; display: block;">
+    <span style="display: inline-block; border: 1px solid #000; padding: 4px 12px;">A<sub>x</sub> = 0</span>
+  </p>
+
+  <p><b>ΣM<sub>A</sub></b> = 0 = +P(a) − P(2a) + B<sub>y</sub>(3a)</p>
+  <p>B<sub>y</sub>(3a) = P(a − 2a)</p>
+  <p>B<sub>y</sub>(3a) = P(−a)</p>
+  <p style="text-align: center; font-weight: bold; display: block;">
+    <span style="display: inline-block; border: 1px solid #000; padding: 4px 12px;">B<sub>y</sub> = −P ⋅ 1/3</span>
+  </p>
+
+</div>
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
