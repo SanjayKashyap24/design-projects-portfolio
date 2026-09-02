@@ -1,7 +1,7 @@
 # A2 – Truss Stress Analysis
 
 ## Objective
-
+I have been tasked with 
 
 ## Analyze
 
