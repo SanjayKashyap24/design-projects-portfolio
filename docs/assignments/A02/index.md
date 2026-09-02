@@ -17,10 +17,10 @@ My objective is to design and 3D model a truss system out of A36 steel that can 
 
 ## Design Process
 
-The two things I immediately thought of when I was deciding how to design my truss system was stability and triangulation. I know that triangles are one of the strongest planar structures and I know the formula that for how many joints should be in a truss for it to be statically determinate.
+The two things I immediately thought of when I was deciding how to design my truss system was stability and triangulation. I know that triangles are one of the strongest planar structures and I know the formula that for how many joints should be in a truss for it to be statically determinate. Utilizing this formula, I concluded that I should 5 members in my system.
 
 <div style="text-align: center;">
-  <p style="font-weight: bold; margin: 8px 0;">2⋅(# of joints) = 3 + x</p>
+  <p style="font-weight: bold; margin: 8px 0;">2⋅(# of joints) = 3 + (# of members)</p>
   <p style="font-weight: normal; margin: 20px 0;">-2(4) = 3 + x</p>
   <p style="display: inline-block; border: 1px solid #000; padding: 4px 12px; margin: 8px 0; font-weight: normal;">x = 5</p>
 </div>
