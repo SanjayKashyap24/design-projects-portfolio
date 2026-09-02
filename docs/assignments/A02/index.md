@@ -3,7 +3,9 @@
 ## Objective
 My objective is to design and 3D model a truss that can support the load within the provided scenario.
 
-<img src="ProvideScenerio.jpg" alt="Clap Photo 2" style="display: block; margin: 0 auto;">
+<div style="text-align: center;">
+  <img src="ProvideScenerio.jpg" alt="Clap Photo 2">
+</div>
 
 ![Clap Photo 2](ProvideScenerio.jpg)
 
