@@ -25,7 +25,11 @@ The two things I immediately thought of when I was deciding how to design my tru
   <p style="display: inline-block; border: 1px solid #000; padding: 4px 12px; margin: 8px 0; font-weight: normal;">x = 5</p>
 </div>
 
-Picture of truss
+Below is a picter of my truss design without suppo
+
+<div style="text-align: center;">
+  <img src="Truss1.jpg" alt="Clap Photo 2">
+</div>
 
 <div style="text-align: left;">
 
