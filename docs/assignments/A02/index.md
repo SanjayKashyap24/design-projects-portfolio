@@ -3,6 +3,8 @@
 ## Objective
 My objective is to design and 3D model a truss that can support the load within the provided scenario.
 
+![Clap Photo 2](ProvideScenerio.jpg)
+
 ## Analyze
 
 
