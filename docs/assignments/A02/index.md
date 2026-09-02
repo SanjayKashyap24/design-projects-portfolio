@@ -1,7 +1,7 @@
 # A2 – Truss Stress Analysis
 
 ## Objective
-I have been tasked with 
+My objective is to design and 3D model a truss that can support the load within the provided scenario.
 
 ## Analyze
 
