@@ -66,7 +66,7 @@ Below I have provided the work for how I calculated the internal forces. I decid
 
 <div style="text-align: center;">
 
-If there is a "P" in parentheses to the left of the name of an internal force, it means it is a tension force. Alternatively there is a "C" in parentheses to the left of the name of an internal force, it means it is a compressive force.
+If there is a "P" in parentheses to the left of the name of an internal force, it means it is a tension force. Alternatively, if there is a "C" in parentheses to the left of the name of an internal force, it means it is a compressive force.
   
  #### Joint B
   
