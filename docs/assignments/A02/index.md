@@ -154,6 +154,8 @@ If there is a "P" in parentheses to the left of the name of an internal force, i
   <img src="JointC.jpg" alt="Clap Photo 2">
 </div>
 
+At this point in the assignment, I learned that I could just upload a picture of my work.
+
 <div style="text-align: center;">
   <img src="JointCWork.jpeg" alt="Clap Photo 2">
 </div>
