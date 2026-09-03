@@ -155,7 +155,7 @@ If there is a "P" in parentheses to the left of the name of an internal force, i
 </div>
 
 <div style="text-align: center;">
-  <img src="JointBWork.jpg" alt="Clap Photo 2">
+  <img src="JointCWork.jpeg" alt="Clap Photo 2">
 </div>
 
 
