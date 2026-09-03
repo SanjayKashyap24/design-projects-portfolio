@@ -216,3 +216,6 @@ _Which geometry did you select, and why? This is your first open design choice i
 
 ## Communicate
 
+## Lesson
+
+I have learned three main lessons from this assignment. The first lesson was that was that I have passed the point in college where I can start an assignment and complete it the day before it is due. I also learned how to use SolidWorks parametric design feature from this assignment, although I did not get a chance to show it. Lastly, I learned what a yield point was from this lesson. My solids lecture on Friday is supposed to teach about yield points, but I had to learn it early for this assignment.
