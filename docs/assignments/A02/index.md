@@ -58,7 +58,84 @@ Below I have provided the work for how I calculated the external forces.
 
 ## Internal Forces
 
- 
+Below I have provided the work for how I calculated the internal forces. I decided to utilize the method of joints because I thought it would be easiest as there are only four joint in this truss system.
+
+<div style="text-align: center;">
+  <img src="JointA.jpg" alt="Clap Photo 2">
+</div>
+
+<div style="text-align: left;">
+
+  <p>
+    <b>ΣF<sub>y</sub></b> = 0 = BC sin(θ<sub>1</sub>) − B<sub>y</sub>
+  </p>
+
+  <p style="text-align: center;">
+    <span style="display: inline-block; border: 1px solid #000; padding: 8px 16px; font-weight: bold;">
+      B<sub>y</sub> =
+      <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; line-height: 1;">
+        <span>P</span>
+        <span style="border-top: 1px solid #000; padding-top: 2px;">3</span>
+      </span>
+    </span>
+  </p>
+
+  <p>
+    0 = BC sin(θ<sub>1</sub>) −
+    <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; line-height: 1;">
+      <span>P</span>
+      <span style="border-top: 1px solid #000; padding-top: 2px;">3</span>
+    </span>
+  </p>
+
+  <p style="text-align: center;">
+    <span style="display: inline-block; border: 1px solid #000; padding: 8px 16px; font-weight: bold;">
+      BC =
+      <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; line-height: 1;">
+        <span>P</span>
+        <span style="border-top: 1px solid #000; padding-top: 2px;">3</span>
+      </span>
+      sin(θ<sub>1</sub>)
+    </span>
+  </p>
+
+  <p>
+    <b>ΣF<sub>x</sub></b> = 0 = AB + BC cos(θ<sub>1</sub>)
+  </p>
+
+  <p>
+    AB = −BC cos(θ<sub>1</sub>)
+  </p>
+
+  <p>
+    AB = −
+    <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; line-height: 1;">
+      <span>P</span>
+      <span style="border-top: 1px solid #000; padding-top: 2px;">3</span>
+    </span>
+    <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; line-height: 1;">
+      <span>cos(θ<sub>1</sub>)</span>
+      <span style="border-top: 1px solid #000; padding-top: 2px;">sin(θ<sub>1</sub>)</span>
+    </span>
+  </p>
+
+  <p>
+    AB = −
+    <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; line-height: 1;">
+      <span>P</span>
+      <span style="border-top: 1px solid #000; padding-top: 2px;">3</span>
+    </span>
+    cot(θ<sub>1</sub>)
+  </p>
+
+</div>
+Copy response
+Good response
+Bad response
+Regenerate response
+Sources
+
+
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
