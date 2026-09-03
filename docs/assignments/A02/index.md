@@ -197,8 +197,9 @@ Below is the work for how I calculated all of the angles from when the forces we
 </div>
 
 Below is the work for me plugging in the numbers.
+
 <div style="text-align: center;">
-  <img src="NumericalPrt1.jpeg" alt="Clap Photo 2">
+  <img src="NumericalPrt1.jpg" alt="Clap Photo 2">
 </div>
 
 
