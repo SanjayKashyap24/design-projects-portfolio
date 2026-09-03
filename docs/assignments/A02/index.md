@@ -153,17 +153,23 @@ If there is a "P" in parentheses to the left of the name of an internal force, i
 </div>
 
 <div style="text-align: center;">
+  <p style="font-weight: bold; margin: 8px 0;">Joint C</p>
+</div>
+
+<div style="text-align: center;">
   <img src="JointC.jpg" alt="Clap Photo 2">
 </div>
 
-At this point in the assignment, I learned that I could just upload a picture of my work.
+<p>At this point in the assignment, I learned that I could just upload a picture of my work.</p>
 
 <div style="text-align: center;">
   <img src="JointCWork.jpeg" alt="Clap Photo 2">
 </div>
 
- Joint D
-  
+<div style="text-align: center;">
+  <p style="font-weight: bold; margin: 8px 0;">Joint D</p>
+</div>
+
 <div style="text-align: center;">
   <img src="JointD.jpeg" alt="Clap Photo 2">
 </div>
