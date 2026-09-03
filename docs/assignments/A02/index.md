@@ -165,7 +165,7 @@ At this point in the assignment, I learned that I could just upload a picture of
 </div>
 
 <div style="text-align: center;">
-  <img src="JointD.jpg" alt="Clap Photo 2">
+  <img src="JointD.jpeg" alt="Clap Photo 2">
 </div>
 
 <div style="text-align: center;">
