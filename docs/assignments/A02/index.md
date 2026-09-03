@@ -146,10 +146,17 @@ If there is a "P" in parentheses to the left of the name of an internal force, i
 
 <div style="text-align: center;">
   
- #### Joint B
+ #### Joint c
   
 </div>
 
+<div style="text-align: center;">
+  <img src="JointC.jpg" alt="Clap Photo 2">
+</div>
+
+<div style="text-align: center;">
+  <img src="JointBWork.jpg" alt="Clap Photo 2">
+</div>
 
 
 ## Decide
