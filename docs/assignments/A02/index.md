@@ -2,7 +2,7 @@
 
 ## Objective
 
-My objective is to design and 3D model a truss system out of A36 steel that can support the load within the provided scenario.
+My objective is to design and 3D model a truss system out of A500 steel that can support the load within the provided scenario. I have chose to create my 3d model in SolidWorks, which means I will have to choose a different, but similar, steel to A500 steel. The steel I have chosen is A36 steel because it has the closest yield strength to A500 steel of all the steel in SolidWorks.
 
 <div style="text-align: center;">
   <img src="ProvideScenerio.jpg" alt="Clap Photo 2">
@@ -11,7 +11,7 @@ My objective is to design and 3D model a truss system out of A36 steel that can 
 <div style="text-align: center;">
   <p style="font-weight: bold; margin: 8px 0;"><b>Y<sub>s</sub> = 250 MPa</b></p>
   <p style="font-weight: bold; margin: 8px 0;"><b>P = 20 kN</b></p>
-  <p style="font-weight: bold; margin: 8px 0;"><b>a = 0.3 m</b></p>
+  <p style="font-weight: bold; margin: 8px 0;"><b>a = 0.4 m</b></p>
   <p style="font-weight: bold; margin: 8px 0;"><b>b = 0.3 m</b></p>
 </div>
 
@@ -175,6 +175,16 @@ At this point in the assignment, I learned that I could just upload a picture of
 </div>
 
 I do not need to create a free body diagram of joint "A" because all of the forces in joint "A" have already been solved for.
+
+#### Numerically
+
+Because I have already solved for all of the internal forces algebraically, all I need to do is find the value of angles 1,2 and 3. Then, plug in the angles and force P.
+
+ <p style="font-weight: bold; margin: 8px 0;"><b>P = 20 kN</b></p>
+  <p style="font-weight: bold; margin: 8px 0;"><b>a = 0.3 m</b></p>
+  <p style="font-weight: bold; margin: 8px 0;"><b>b = 0.3 m</b></p>
+
+
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
