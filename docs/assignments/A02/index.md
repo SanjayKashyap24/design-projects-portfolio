@@ -181,10 +181,20 @@ I do not need to create a free body diagram of joint "A" because all of the forc
 Because I have already solved for all of the internal forces algebraically, all I need to do is find the value of angles 1,2 and 3. Then, plug in the angles and force P.
 
  <p style="font-weight: bold; margin: 8px 0;"><b>P = 20 kN</b></p>
-  <p style="font-weight: bold; margin: 8px 0;"><b>a = 0.3 m</b></p>
+  <p style="font-weight: bold; margin: 8px 0;"><b>a = 0.4 m</b></p>
   <p style="font-weight: bold; margin: 8px 0;"><b>b = 0.3 m</b></p>
 
+Below is another diagram of the truss, but with any parts non-essential to calculating the angles having been taken out.
 
+<div style="text-align: center;">
+  <img src="Truss3.jpeg" alt="Clap Photo 2">
+</div>
+
+Below is the work for how I calculated all of the angles from when the forces were solved algebraically.
+
+<div style="text-align: center;">
+  <img src="AngleWork.jpeg" alt="Clap Photo 2">
+</div>
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
