@@ -164,8 +164,6 @@ At this point in the assignment, I learned that I could just upload a picture of
 
  Joint D
   
-</div>
-
 <div style="text-align: center;">
   <img src="JointD.jpeg" alt="Clap Photo 2">
 </div>
