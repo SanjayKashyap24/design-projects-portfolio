@@ -61,6 +61,12 @@ Below I have provided the work for how I calculated the external forces.
 Below I have provided the work for how I calculated the internal forces. I decided to utilize the method of joints because I thought it would be easiest as there are only four joint in this truss system.
 
 <div style="text-align: center;">
+  
+ #### Joint B
+  
+</div>
+
+<div style="text-align: center;">
   <img src="JointB.jpg" alt="Clap Photo 2">
 </div>
 
@@ -132,7 +138,11 @@ Below I have provided the work for how I calculated the internal forces. I decid
 
 </div>
 
-
+<div style="text-align: center;">
+  
+ #### Joint B
+  
+</div>
 
 
 
