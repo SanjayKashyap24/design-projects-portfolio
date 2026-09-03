@@ -150,12 +150,6 @@ If there is a "P" in parentheses to the left of the name of an internal force, i
   
  Joint C
   
-</div>
-
-<div style="text-align: center;">
-  <p style="font-weight: bold; margin: 8px 0;">Joint C</p>
-</div>
-
 <div style="text-align: center;">
   <img src="JointC.jpg" alt="Clap Photo 2">
 </div>
