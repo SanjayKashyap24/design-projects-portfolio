@@ -196,6 +196,13 @@ Below is the work for how I calculated all of the angles from when the forces we
   <img src="AngleWork.jpeg" alt="Clap Photo 2">
 </div>
 
+Below is the work for me plugging in the numbers.
+<div style="text-align: center;">
+  <img src="NumericalPrt1.jpeg" alt="Clap Photo 2">
+</div>
+
+
+
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
 
