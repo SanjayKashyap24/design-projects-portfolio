@@ -66,6 +66,8 @@ Below I have provided the work for how I calculated the internal forces. I decid
 
 If there is a "P" in parentheses to the left of the name of an internal force, it means it is a tension force. Alternatively, if there is a "C" in parentheses to the left of the name of an internal force, it means it is a compressive force.
 
+#### Algebraically 
+
 <div style="text-align: center;">
   
  Joint B
@@ -172,6 +174,7 @@ At this point in the assignment, I learned that I could just upload a picture of
   <img src="JointDWork.jpeg" alt="Clap Photo 2">
 </div>
 
+I do not need to create a free body diagram of joint "A" because all of the forces in joint "A" have already been solved for.
 
 ## Decide
 _Which geometry did you select, and why? This is your first open design choice in the course — defend it._
