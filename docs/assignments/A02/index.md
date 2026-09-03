@@ -121,7 +121,7 @@ Below I have provided the work for how I calculated the internal forces. I decid
 
   <p style="text-align: center;">
     <span style="display: inline-block; border: 1px solid #000; padding: 8px 16px; font-weight: bold;">
-      (C) AB = −
+      (C) AB = 
       <span style="display: inline-flex; flex-direction: column; vertical-align: middle; text-align: center; line-height: 1;">
         <span>P</span>
         <span style="border-top: 1px solid #000; padding-top: 2px;">3</span>
