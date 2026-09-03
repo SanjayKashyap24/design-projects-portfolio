@@ -5,14 +5,14 @@
 My objective is to design and 3D model a truss system out of A500 steel that can support the load within the provided scenario. I have chose to create my 3d model in SolidWorks, which means I will have to choose a different, but similar, steel to A500 steel. The steel I have chosen is A36 steel because it has the closest yield strength to A500 steel of all the steel in SolidWorks.
 
 <div style="text-align: center;">
-  <img src="ProvideScenerio.jpg" alt="Clap Photo 2">
+  <img src="ProvideScenerio.jpg" alt="Scenario Diagram">
 </div>
 
 <div style="text-align: center;">
-  <p style="font-weight: bold; margin: 8px 0;"><b>Y<sub>s</sub> = 250 MPa</b></p>
-  <p style="font-weight: bold; margin: 8px 0;"><b>P = 20 kN</b></p>
-  <p style="font-weight: bold; margin: 8px 0;"><b>a = 0.4 m</b></p>
-  <p style="font-weight: bold; margin: 8px 0;"><b>b = 0.3 m</b></p>
+  <p style="font-weight: bold; margin: 8px 0;">Y<sub>s</sub> = 250 MPa</p>
+  <p style="font-weight: bold; margin: 8px 0;">P = 20 kN</p>
+  <p style="font-weight: bold; margin: 8px 0;">a = 0.4 m</p>
+  <p style="font-weight: bold; margin: 8px 0;">b = 0.3 m</p>
 </div>
 
 ## Design Process
@@ -184,9 +184,12 @@ I do not need to create a free body diagram of joint "A" because all of the forc
 
 Because I have already solved for all of the internal forces algebraically, all I need to do is find the value of angles 1,2 and 3. Then, plug in the angles and force P.
 
- <p style="font-weight: bold; margin: 8px 0;"><b>P = 20 kN</b></p>
-  <p style="font-weight: bold; margin: 8px 0;"><b>a = 0.4 m</b></p>
-  <p style="font-weight: bold; margin: 8px 0;"><b>b = 0.3 m</b></p>
+<div style="text-align: center;">
+  <p style="font-weight: bold; margin: 8px 0;">Y<sub>s</sub> = 250 MPa</p>
+  <p style="font-weight: bold; margin: 8px 0;">P = 20 kN</p>
+  <p style="font-weight: bold; margin: 8px 0;">a = 0.4 m</p>
+  <p style="font-weight: bold; margin: 8px 0;">b = 0.3 m</p>
+</div>
 
 Below is another diagram of the truss, but with any parts non-essential to calculating the angles having been taken out.
 
