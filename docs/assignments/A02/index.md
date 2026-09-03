@@ -33,6 +33,10 @@ The two things I immediately thought of when I was deciding how to design my tru
 
 Below I have provided the work for how I calculated the external forces.
 
+<div style="text-align: center;">
+  <img src="Truss2.jpeg" alt="Clap Photo 2">
+</div>
+
 <div style="text-align: left;">
 
   <p><b>ΣF<sub>y</sub></b> = 0 = A<sub>y</sub> + B<sub>y</sub> − P + P</p>
