@@ -68,7 +68,7 @@ If there is a "P" in parentheses to the left of the name of an internal force, i
 
 <div style="text-align: center;">
   
- #### Joint B
+ Joint B
   
 </div>
 
@@ -146,7 +146,7 @@ If there is a "P" in parentheses to the left of the name of an internal force, i
 
 <div style="text-align: center;">
   
- #### Joint c
+ Joint C
   
 </div>
 
@@ -158,6 +158,18 @@ At this point in the assignment, I learned that I could just upload a picture of
 
 <div style="text-align: center;">
   <img src="JointCWork.jpeg" alt="Clap Photo 2">
+</div>
+
+ Joint D
+  
+</div>
+
+<div style="text-align: center;">
+  <img src="JointD.jpg" alt="Clap Photo 2">
+</div>
+
+<div style="text-align: center;">
+  <img src="JointDWork.jpeg" alt="Clap Photo 2">
 </div>
 
 
