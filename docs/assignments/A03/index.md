@@ -61,8 +61,15 @@ When choosing the parameters for the FEA simulation, I chose to create the bar o
 <div style="text-align: center;">
   <img src="LoadedBar.Png" alt="LoadedPoint">
 </div>
-## Decide
 
+
+Next I added a mesh and I chose the option closest to the middle between gritty and fine. The Mesh breaks the surfaces into smaller parts for the FEA simulation to analyze.
+
+<div style="text-align: center;">
+  <img src="MeshBar.Png" alt="LoadedPoint">
+</div>
+
+## Decide
 
 ## Communicate
 
