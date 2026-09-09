@@ -15,6 +15,10 @@ I chose to use an initial diameter of 1 inch and an elasticity of 8.5 × 10⁶ p
   <img src="GlobaVariables1.png" alt="Initial dimensions chart">
 </div>
 
+I set the length equal to 1 inch for now as I have not yet solved for it.
+
+### Set up
+
 
 
 ## Decide
