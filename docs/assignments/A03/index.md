@@ -55,7 +55,7 @@ Below is a picture of the finished model before I begin the FEA.
 When choosing the parameters for the FEA simulation, I chose to create the bar out of 6061-T6 (SS) Aluminum because it had the closest modulus of elasticity to the one I chose when designing the bar. Then I chose which side of the bar would be fixed to the wall and which side would be loaded.
 
 <div style="text-align: center;">
-  <img src="ChosenMaterial.png" alt="FixedPoint">
+  <img src="ChosenMaterial.png" alt="MaterialSelection">
 </div>
 
 <div style="text-align: center;">
@@ -72,9 +72,18 @@ Next I added a mesh and I chose the option closest to the middle between gritty 
   <img src="MeshBar.png" alt="Mesh">
 </div>
 
-The next step was to run the FEA and analyze the resulting Von Mises Stress map to ensure that the maximum stress on the bar does not exceed the strength of the aluminum.
+The next step was to run the FEA and analyze the resulting Von Mises stress map to ensure that the maximum stress on the bar does not exceed the strength of the aluminum.
 
-## Decide
+<div style="text-align: center;">
+  <img src="ActualBarStress.png" alt="Stress">
+</div>
 
-## Communicate
+The Von Mises stress map showed the maximum stress was 0.07445 psi and the yield strength of the aluminum was 39890 psi concluding the project with a factor of safety of 53.6 (factor of safety calculation below).
 
+
+<div align="center">
+Factor of Safety <strong>=</strong> Yield Strength &divide; Max Stress <strong>=</strong> 39890 psi &divide; 744.4 psi <strong>=</strong> <strong>53.6</strong>
+</div>
+
+
+## Reflection
