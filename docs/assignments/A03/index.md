@@ -38,7 +38,7 @@ I used the stress and strain equations and Hook's Law to algebraically solve for
 <table border="3" cellpadding="10"><tr><td><strong>δ = FL/(AE)</strong></td></tr></table>
 </div>
 
-### Creating Cad Model
+### Creating the CAD Model
 I chose to use an initial diameter of 1 inch and an elasticity of 8.5 × 10⁶ psi. I wanted to design a bar that bends more easily and I thought that a bar that bends easily would need a wide diameter. My next step was to set up the global variables on SolidWorks (my CAD software of choice) to keep track of my variables.
 
 <div style="text-align: center;">
