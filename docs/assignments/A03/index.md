@@ -41,7 +41,7 @@ I used the stress and strain equations and Hook's Law to algebraically solve for
 <p align="center">F/A = E(δ/L)</p>
 
 <div align="center">
-<table style="border: 4px solid black;" cellpadding="10"><tr><td><strong>δ = FL/(AE)</strong></td></tr></table>
+<table border="3" cellpadding="10"><tr><td><strong>δ = FL/(AE)</strong></td></tr></table>
 </div>
 
 
