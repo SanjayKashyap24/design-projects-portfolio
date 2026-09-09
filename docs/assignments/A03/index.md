@@ -52,7 +52,11 @@ Below is a picture of the finished model before I begin the FEA.
 </div>
 
 ### FEA
-When choosing the parameters for the FEA simulation, I chose to create the bar out of 6061-T6 (SS) because it had the closest modulus of elasticity to the one I chose when designing the bar. Then I chose which side of the bar would be fixed to the wall and which side would be loaded.
+When choosing the parameters for the FEA simulation, I chose to create the bar out of 6061-T6 (SS) Aluminum because it had the closest modulus of elasticity to the one I chose when designing the bar. Then I chose which side of the bar would be fixed to the wall and which side would be loaded.
+
+<div style="text-align: center;">
+  <img src="ChosenMaterial.png" alt="FixedPoint">
+</div>
 
 <div style="text-align: center;">
   <img src="FixedBar.png" alt="FixedPoint">
@@ -67,6 +71,8 @@ Next I added a mesh and I chose the option closest to the middle between gritty 
 <div style="text-align: center;">
   <img src="MeshBar.png" alt="Mesh">
 </div>
+
+The next step was to run the FEA and analyze the resulting Von Mises Stress map to ensure that the maximum stress on the bar does not exceed the strength of the aluminum.
 
 ## Decide
 
