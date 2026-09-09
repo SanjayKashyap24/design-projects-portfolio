@@ -55,18 +55,17 @@ Below is a picture of the finished model before I begin the FEA.
 When choosing the parameters for the FEA simulation, I chose to create the bar out of 6061-T6 (SS) because it had the closest modulus of elasticity to the one I chose when designing the bar. Then I chose which side of the bar would be fixed to the wall and which side would be loaded.
 
 <div style="text-align: center;">
-  <img src="FixedBar.Png" alt="FixedPoint">
+  <img src="FixedBar.png" alt="FixedPoint">
 </div>
 
 <div style="text-align: center;">
-  <img src="LoadedBar.Png" alt="LoadedPoint">
+  <img src="LoadedBar.png" alt="LoadedPoint">
 </div>
-
 
 Next I added a mesh and I chose the option closest to the middle between gritty and fine. The Mesh breaks the surfaces into smaller parts for the FEA simulation to analyze.
 
 <div style="text-align: center;">
-  <img src="MeshBar.Png" alt="LoadedPoint">
+  <img src="MeshBar.png" alt="Mesh">
 </div>
 
 ## Decide
