@@ -51,7 +51,16 @@ Below is a picture of the finished model before I begin the FEA.
   <img src="BarPic1.png" alt="BarPic1">
 </div>
 
+### FEA
+When choosing the parameters for the FEA simulation, I chose to create the bar out of 6061-T6 (SS) because it had the closest modulus of elasticity to the one I chose when designing the bar. Then I chose which side of the bar would be fixed to the wall and which side would be loaded.
 
+<div style="text-align: center;">
+  <img src="FixedBar.Png" alt="FixedPoint">
+</div>
+
+<div style="text-align: center;">
+  <img src="LoadedBar.Png" alt="LoadedPoint">
+</div>
 ## Decide
 
 
