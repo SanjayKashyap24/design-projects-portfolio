@@ -39,10 +39,16 @@ I used the stress and strain equations and Hook's Law to algebraically solve for
 </div>
 
 ### Creating the CAD Model
-I chose to use an initial diameter of 1 inch and an elasticity of 8.5 × 10⁶ psi. I wanted to design a bar that bends more easily and I thought that a bar that bends easily would need a wide diameter. My next step was to set up the global variables on SolidWorks (my CAD software of choice) to keep track of my variables.
+I chose to use an initial diameter of 1 inch and an elasticity of 10 × 10⁶ psi. I wanted to design a bar that bends more easily and I thought that a bar that bends easily would need a wide diameter. My next step was to set up the global variables on SolidWorks (my CAD software of choice) to automatically define the measurements I have calculated.
 
 <div style="text-align: center;">
   <img src="GlobaVariables1.png" alt="Initial dimensions chart">
+</div>
+
+Below is a picture of the finished model before I begin the FEA.
+
+<div style="text-align: center;">
+  <img src="BarPic1.png" alt="BarPic1">
 </div>
 
 
