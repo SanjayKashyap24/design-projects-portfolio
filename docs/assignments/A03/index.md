@@ -171,6 +171,4 @@ One early mistake was using the symbol for stress to represent deflection instea
 
 Another mistake was confusing the SolidWorks displacement/deflection simulation output with a general strain model. I initially assumed the deflection plot might represent strain, when it actually shows physical displacement (URES) a different quantity with different units and meaning.
 
-The most significant and time consuming mistake was an error in the global variable arithmetic within SolidWorks. I entered an incorrect equation when calculating the bar's length in the global variables table, which produced an incorrect design length. This error wasn't obvious at first, and it took a considerable amount of troubleshooting to trace the problem back to the equation itself before I could correct it.
-
-This assignment took around 5 bours to complete.
+The most significant and time consuming mistake was an error in the global variable arithmetic within SolidWorks. I entered an incorrect equation when calculating the bar's length in the global variables table, which produced an incorrect design length. This error wasn't obvious at first, and it took a considerable amount of troubleshooting to trace the problem back to the equation itself before I could correct it. This assignment took around 5 bours to complete.
