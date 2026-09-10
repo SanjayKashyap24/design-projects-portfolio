@@ -113,5 +113,17 @@ There was a significant difference between the maximum deflection within the sim
 <table style="border: 4px solid black;" cellpadding="10"><tr><td><strong>0.0085026 in</strong></td></tr></table>
 </div>
 
-A possible reason for a difference in the calculations is that the maximum deflection of 0.009 inches rounded up to 0.01 inches in the global variables table of SolidWorks. Another reason may be that the elasticity in the global variables section was exactly 10 × 10⁶ psi while the elasticity of 6061-T6 (SS) aluminum was 7604 psi higher than that.    
 
+<div align="center">
+|&delta;<sub>M</sub> &minus; &delta;<sub>S</sub>| / &delta;<sub>M</sub>
+</div>
+
+<div align="center">
+|0.009 in &minus; 0.0004974 in| / 0.009 in
+</div>
+
+<div align="center">
+<table style="border: 4px solid black;" cellpadding="10"><tr><td><strong>94.47%</strong></td></tr></table>
+</div>
+
+A possible reason for a difference in the calculations is that the maximum deflection of 0.009 inches rounded up to 0.01 inches in the global variables table of SolidWorks. Another reason may be that the elasticity in the global variables section was exactly 10 × 10⁶ psi while the elasticity of 6061-T6 (SS) aluminum was 7604 psi higher than that.    
