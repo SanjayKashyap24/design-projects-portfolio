@@ -130,11 +130,6 @@ There was a significant difference between the maximum deflection within the sim
 
 The Stress difference
 
-
-A possible reason for a difference in the calculations is that the maximum deflection of 0.009 inches rounded up to 0.01 inches in the global variables table of SolidWorks. Another reason may be that the elasticity in the global variables section was exactly 10 × 10⁶ psi while the elasticity of 6061-T6 (SS) aluminum was 7604 psi higher than that. 94.7% is a large margin of error.
-
-I trust the result of the simulation over the result of my hand calculations because I think that humans are more prone to minor mistakes than published programs such as SolidWorks are.
-
 <div align="center">
 500 lbf / &pi;(0.5 in)&sup2;
 </div>
@@ -158,11 +153,19 @@ I trust the result of the simulation over the result of my hand calculations bec
 <table style="border: 4px solid black;" cellpadding="10"><tr><td><strong>16.95%</strong></td></tr></table>
 </div>
 
+A possible reason for a difference in the calculations is that the maximum deflection of 0.009 inches rounded up to 0.01 inches in the global variables table of SolidWorks. Another reason may be that the elasticity in the global variables section was exactly 10 × 10⁶ psi while the elasticity of 6061-T6 (SS) aluminum was 7604 psi higher than that. 94.7% is a large margin of error and why there is a 16.95% margin of error for the stress.
 
+I trust the result of the simulation over the result of my hand calculations because I think that humans are more prone to minor mistakes than published programs such as SolidWorks are.
 
 <div align="center">
 <p><strong><a href="Parametric&amp;FEAproject.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
 </div>
 
+
+## Hypothetical
+
+
+
 ### Self Reflection
+
 
