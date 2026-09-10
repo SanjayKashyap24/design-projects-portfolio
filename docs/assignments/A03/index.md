@@ -174,8 +174,3 @@ Another mistake was confusing the SolidWorks displacement/deflection simulation 
 The most significant and time consuming mistake was an error in the global variable arithmetic within SolidWorks. I entered an incorrect equation when calculating the bar's length in the global variables table, which produced an incorrect design length. This error wasn't obvious at first, and it took a considerable amount of troubleshooting to trace the problem back to the equation itself before I could correct it.
 
 This assignment took around 5 bours to complete.
-
-
-
-
-the last part will not update so I have to write something else for it to aactually update.
