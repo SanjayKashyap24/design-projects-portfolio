@@ -96,6 +96,8 @@ Below is the simulated deflection.
 </div>
 
 ## Reflection
+
+### Design Reflection
 There was a significant difference between the maximum deflection within the simulation and what I believed it should have been from my hand calculation. I solved for the length based on the given maximum deflection and the diameter I chose.
 
 <p>(Simulated Deflection) <strong>&delta;</strong><sub>S</sub> = 0.0004974 in</p>
@@ -126,4 +128,11 @@ There was a significant difference between the maximum deflection within the sim
 <table style="border: 4px solid black;" cellpadding="10"><tr><td><strong>94.47%</strong></td></tr></table>
 </div>
 
-A possible reason for a difference in the calculations is that the maximum deflection of 0.009 inches rounded up to 0.01 inches in the global variables table of SolidWorks. Another reason may be that the elasticity in the global variables section was exactly 10 × 10⁶ psi while the elasticity of 6061-T6 (SS) aluminum was 7604 psi higher than that.    
+A possible reason for a difference in the calculations is that the maximum deflection of 0.009 inches rounded up to 0.01 inches in the global variables table of SolidWorks. Another reason may be that the elasticity in the global variables section was exactly 10 × 10⁶ psi while the elasticity of 6061-T6 (SS) aluminum was 7604 psi higher than that. 94.7% is a large margin of error.
+
+I trust the result of the simulation over the result of my hand calculations because I think that humans are more prone to minor mistakes than published programs such as SolidWorks are.
+
+
+
+### Self Reflection
+
