@@ -160,10 +160,7 @@ I trust the result of the simulation over the result of my hand calculations bec
 
 
 
-
-
 <div align="center">
-<p><strong>Link to SolidWorks File</strong></p>
 <p><strong><a href="Parametric&amp;FEAproject.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
 </div>
 
