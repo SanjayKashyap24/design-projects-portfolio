@@ -71,3 +71,12 @@ The limiting factor is deflection because the thickness based upon the maximum d
 
 ### Isometric Drawing
 
+Below is an Isometric sketch I of the design that I drew by hand
+
+<div style="text-align: center;">
+  <img src="A4-10.jpg" alt="Initial dimensions chart">
+</div> 
+
+## CAD Design
+
+
