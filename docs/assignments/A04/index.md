@@ -36,7 +36,7 @@ I did not solve for the reaction forces because I am assuming the connection to 
 I calculated two formulas for the thickness based on the yield strength of PLA and the maximum deflection because they are two independent limiting factors. I will go with whichever required thickness is higher to ensure no mechanical failures, since the smaller of the two thicknesses would satisfy one requirement but fail to satisfy the other.
 
 <div style="text-align: center;">
-  <img src="A4-5.jpg" alt="Initial dimensions chart">
+  <img src="A4-5.jpeg" alt="Initial dimensions chart">
 </div>    
 
 Below I are the numerical values of thickness I found by plugging the numbers into a calculator.
