@@ -82,6 +82,6 @@ Below is an Isometric sketch I of the design that I drew by hand
 I am parametrically modelling all the dimensions
 
 <div style="text-align: center;">
-  <img src="A4-11.jpg" alt="Initial dimensions chart">
+  <img src="A4-11.png" alt="Initial dimensions chart">
 </div> 
 
