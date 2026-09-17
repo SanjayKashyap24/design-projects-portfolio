@@ -79,4 +79,9 @@ Below is an Isometric sketch I of the design that I drew by hand
 
 ## CAD Design
 
+I am parametrically modelling all the dimensions
+
+<div style="text-align: center;">
+  <img src="A4-11.jpg" alt="Initial dimensions chart">
+</div> 
 
