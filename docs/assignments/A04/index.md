@@ -27,6 +27,8 @@ PLA was selected as the motor mount material because, among PLA, PETG, and ABS, 
   <img src="A4-4.jpg" alt="Initial dimensions chart">
 </div>    
 
+<p style="text-align: center; font-weight: bold;">The only unknown was the thickness of the plate "t"</p>
+
 Below is the free body diagram and the symbolic equations and the work to find them.
 
 <div style="text-align: center;">
