@@ -79,6 +79,8 @@ Below is an Isometric sketch I of the design that I drew by hand
 
 ## CAD Design
 
+### Initial Steps
+
 I am parametrically modelling all the dimensions
 
 <div style="text-align: center;">
@@ -122,3 +124,5 @@ Next I designed the 3.4mm diameter holes in which the screws will go through.
 <div style="text-align: center;">
   <img src="Clearance5.png" alt="Initial dimensions chart">
 </div> 
+
+### Engineering Drawing
