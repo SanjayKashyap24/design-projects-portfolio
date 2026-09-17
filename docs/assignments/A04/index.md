@@ -103,3 +103,13 @@ The Motor has an 18mm diameter section and then a 6mm diameter section extended 
   <img src="Clearance1.png" alt="Initial dimensions chart">
 </div> 
 
+I made the 6mm diameter hole a through cut because it was the smallest and then I made the 18mm diameter hole 2mm deep because that is as far as that section extrudes off the motor.
+
+<div style="text-align: center;">
+  <img src="Clearance2.png" alt="Initial dimensions chart">
+</div> 
+
+<div style="text-align: center;">
+  <img src="Clearance3.png" alt="Initial dimensions chart">
+</div> 
+
