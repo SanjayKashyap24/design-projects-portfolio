@@ -128,4 +128,17 @@ Next I designed the 3.4mm diameter holes in which the screws will go through.
 <div align="center">
 <p><strong><a href="A4-SeDes.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
 </div>
+
 ### Engineering Drawing
+
+I am in section 2156 so I am not required to put an engineering drawing, but I wanted to put a drawing in anyways.
+
+<div style="text-align: center;">
+  <img src="A4-sketch.png" alt="Initial dimensions chart">
+</div> 
+
+<div align="center">
+<p><strong><a href="A4-SeDes.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
+</div>
+
+
