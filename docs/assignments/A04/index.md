@@ -7,6 +7,15 @@ Design a motor mount using the (Brushed 24V DC Gear Motor 3.6Kg.cm/46RPM w/ 99.5
   <img src="A4-1.png" alt="Initial dimensions chart">
 </div>
 
+Below is the motor dimensions and general concept of the type of mount that is expected.
+
+<div style="text-align: center;">
+  <img src="A4-2.png" alt="Initial dimensions chart">
+</div>
+
+<div style="text-align: center;">
+  <img src="A4-3.png" alt="Initial dimensions chart">
+</div>    
 
 ## Analyze
 
