@@ -31,6 +31,8 @@ PLA was selected as the motor mount material because, among PLA, PETG, and ABS, 
 
 Below is the free body diagram and the symbolic equations and the work to find them. I boxed the two values of thickness "t" that I was looking for and then accidentally boxed the Maximum moment.
 
+I did not solve for the reaction forces because I am assuming the connection to the wall is strong enough regaurdless of the force exerted.
+
 I calculated two formulas for the thickness based on the yield strength of PLA and the maximum deflection because they are two independent limiting factors. I will go with whichever required thickness is higher to ensure no mechanical failures, since the smaller of the two thicknesses would satisfy one requirement but fail to satisfy the other.
 
 <div style="text-align: center;">
@@ -50,6 +52,7 @@ The limiting factor is deflection because the thickness based upon the maximum d
 <div style="text-align: center;">
   <img src="A4-7.jpg" alt="Initial dimensions chart">
 </div>  
+
 
 
 ## Decide
