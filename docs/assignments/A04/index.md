@@ -24,7 +24,7 @@ Below is the motor dimensions and general concept of the type of mount that is e
 PLA was selected as the motor mount material because, among PLA, PETG, and ABS, it has the highest modulus of elasticity and among the highest yield strength, with a yield strength (Sᵧ) of approximately 60 MPa and an elastic modulus (E) of approximately 3,500 MPa. A higher modulus of elasticity means PLA deflects less under a given load than PETG or ABS, so it more easily satisfies the 0.30 mm maximum deflection requirement without requiring a larger cross-section. Combined with its high yield strength, PLA also satisfies the factor of safety of 3 strength requirement with a smaller, lighter design than the other two materials would allow, simplifying the overall analysis and geometry.
 
 <div style="text-align: center;">
-  <img src="A4-4.peng" alt="Initial dimensions chart">
+  <img src="A4-4.jpg" alt="Initial dimensions chart">
 </div>    
 
 
