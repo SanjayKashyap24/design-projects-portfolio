@@ -27,6 +27,23 @@ PLA was selected as the motor mount material because, among PLA, PETG, and ABS, 
   <img src="A4-4.jpg" alt="Initial dimensions chart">
 </div>    
 
+Below is the free body diagram and the symbolic equations and the work to find them.
+
+<div style="text-align: center;">
+  <img src="A4-5.jpg" alt="Initial dimensions chart">
+</div>    
+
+Below is just the symbolics finished symbolic equations for easier reference
+
+<div style="text-align: center;">
+  <img src="A4-6.jpg" alt="Initial dimensions chart">
+</div>    
+
+Below is the values after plugging in the numbers of the equations
+
+<div style="text-align: center;">
+  <img src="A4-7.jpg" alt="Initial dimensions chart">
+</div>    
 
 
 ## Decide
