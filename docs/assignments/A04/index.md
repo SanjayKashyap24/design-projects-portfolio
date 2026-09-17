@@ -113,3 +113,12 @@ I made the 6mm diameter hole a through cut because it was the smallest and then 
   <img src="Clearance3.png" alt="Initial dimensions chart">
 </div> 
 
+Next I designed the 3.4mm diameter holes in which the screws will go through.
+
+<div style="text-align: center;">
+  <img src="Clearance4.png" alt="Initial dimensions chart">
+</div> 
+
+<div style="text-align: center;">
+  <img src="Clearance5.png" alt="Initial dimensions chart">
+</div> 
