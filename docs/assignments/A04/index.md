@@ -39,13 +39,13 @@ I calculated two formulas for the thickness based on the yield strength of PLA a
   <img src="A4-5.jpg" alt="Initial dimensions chart">
 </div>    
 
-Below is the values after plugging in the numbers of the equations
+Below I are the numerical values of thickness I found by plugging the numbers into a calculator.
 
 <div style="text-align: center;">
   <img src="A4-6.jpg" alt="Initial dimensions chart">
 </div>    
 
-The limiting factor is deflection because the thickness based upon the maximum deflection is the highest of the two thicknesses calculated.
+The limiting factor is deflection because the thickness based upon the maximum deflection is the highest of the two thicknesses calculated. This means I will be using t=12.79mm.
 
 ### Feature 2
 
@@ -58,9 +58,16 @@ Again, I did not solve for the reaction forces or the reaction moment because I 
 Again, I calculated two formulas for the thickness based on the yield strength of PLA and the maximum deflection because they are two independent limiting factors. I will go with whichever required thickness is higher to ensure no mechanical failures, since the smaller of the two thicknesses would satisfy one requirement but fail to satisfy the other.
 
 <div style="text-align: center;">
-  <img src="A4-8.jpg" alt="Initial dimensions chart">
+  <img src="A4-8.jpeg" alt="Initial dimensions chart">
 </div> 
 
+Below I are the numerical values of thickness I found by plugging the numbers into a calculator.
+
+<div style="text-align: center;">
+  <img src="A4-9.jpeg" alt="Initial dimensions chart">
+</div> 
+
+The limiting factor is deflection because the thickness based upon the maximum deflection is the highest of the two thicknesses calculated. This means I will be using t=11.9mm.
 ## Decide
 
 
