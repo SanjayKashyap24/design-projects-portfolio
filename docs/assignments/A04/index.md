@@ -138,7 +138,7 @@ I am in section 2156 so I am not required to put an engineering drawing, but I w
 </div> 
 
 <div align="center">
-<p><strong><a href="A4-SeDes.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
+<p><strong><a href="A4-SeDes.SLDDRW?raw=true">Download SolidWorks Drawing File</a></strong></p>
 </div>
 
 
