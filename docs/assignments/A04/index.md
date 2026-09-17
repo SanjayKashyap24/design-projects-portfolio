@@ -43,6 +43,12 @@ Below is the values after plugging in the numbers of the equations
   <img src="A4-6.jpg" alt="Initial dimensions chart">
 </div>    
 
+The limiting factor is deflection because the thickness based upon the maximum deflection is the highest of the two thicknesses calculated.
+
+### Feature 2
+
+
+
 
 ## Decide
 
