@@ -86,6 +86,16 @@ I am parametrically modelling all the dimensions
 </div> 
 
 
-##
+### Holes
+My first sketch contained all the lengths defined parametrically except for the width of 35mm.
 
+<div style="text-align: center;">
+  <img src="A4-12.png" alt="Initial dimensions chart">
+</div> 
+
+The Motor has an 18mm diameter section and then a 6mm diameter section extended out of that. This first hole is meant for that section to fit into.
+
+<div style="text-align: center;">
+  <img src="Clearance1.png" alt="Initial dimensions chart">
+</div> 
 
