@@ -93,6 +93,10 @@ My first sketch contained all the lengths defined parametrically except for the 
   <img src="A4-12.png" alt="Initial dimensions chart">
 </div> 
 
+<div style="text-align: center;">
+  <img src="A4-13.png" alt="Initial dimensions chart">
+</div> 
+
 The Motor has an 18mm diameter section and then a 6mm diameter section extended out of that. This first hole is meant for that section to fit into.
 
 <div style="text-align: center;">
