@@ -53,7 +53,13 @@ The limiting factor is deflection because the thickness based upon the maximum d
   <img src="A4-7.jpg" alt="Initial dimensions chart">
 </div>  
 
+Again, I did not solve for the reaction forces or the reaction moment because I am assuming the connection to the wall is strong enough regardless of the force exerted.
 
+Again, I calculated two formulas for the thickness based on the yield strength of PLA and the maximum deflection because they are two independent limiting factors. I will go with whichever required thickness is higher to ensure no mechanical failures, since the smaller of the two thicknesses would satisfy one requirement but fail to satisfy the other.
+
+<div style="text-align: center;">
+  <img src="A4-8.jpg" alt="Initial dimensions chart">
+</div> 
 
 ## Decide
 
