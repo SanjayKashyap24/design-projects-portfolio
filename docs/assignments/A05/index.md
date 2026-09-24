@@ -20,8 +20,13 @@ Design using a safety factor of 4 and applied load in between 500 lbf < F < 800 
 I have chosen to design the bracket to withstand a load of 800 lbf and to be made out of Steel (ASTM A36) because the properties are already in SolidWorks and cost is not a constraint. Below is a concept design and how it will be sectioned into features that can more easily be optimized.
 
 <div style="text-align: center;">
-  <img src="A5-2.png" alt="A5-1">
+  <img src="A5-2.png" alt="A5-2">
 </div>
+
+I will be going in the order that the force reaches each part so that there is no backtracking as I analyze the features.
+
+### Feature A
+
 
 
 ## Decide
