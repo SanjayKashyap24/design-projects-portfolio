@@ -35,6 +35,33 @@ I will be going in the order that the force reaches each part so that there is n
 
 ### Feature A
 
+The main objective for optimizing feature "A" is finding diameter after I assumed the length of "A" was 1 inch. I needed to find the moment and reaction force (Ry), but these were very simple, because there is only one vertical force other than Ry, the two forces are equal, but in opposite directions. 
+
+<div style="text-align: center;">
+  <img src="A5-3.png" alt="A5-3">
+</div>
+
+<div style="text-align: center;">
+  <img src="A5-4.png" alt="A5-4">
+</div>
+
+After calculating the required diameter based off of stress and based off of deflection, the diameter based off of deflection was greater. This means that the diameter used will be the required diameter from deflection. However, because I need to sketch the design by hand, I will round the diameter to 2.5 inches.
+
+### Feature B
+
+The main objective for optimizing feature "b" was finding the thickness of the feature after assuming the length was 3 inches. I assumed 3 inches because it needed to be longer than the diameter of feature "A" and so I rounded to the next whole number. The base distance is equal to the diameter of feature "A." because it would be much harder to sketch otherwise. 
+
+<div style="text-align: center;">
+  <img src="A5-5.png" alt="A5-5">
+</div>
+
+<div style="text-align: center;">
+  <img src="A5-6.png" alt="A5-6">
+</div>
+
+When solving for Thickness based off of deflection I accidentally inserted the inertia equation with "b" instead of "w" so I then set b=w. After calculating the required thickness based off of stress and based off of deflection, the thickness based off of deflection was greater. This means that the thickness used will be the required thickness from deflection. However, because I need to sketch the design by hand, I will round the thickness to 3.0 inches.
+
+### Feature C
 
 
 
