@@ -82,6 +82,25 @@ When doing my calculations for the height based off of the maximum stress, I acc
 ### Feature D
 The two sides for Feature "D" are symmetrical which is why I will only do the work for one side and apply it to both sides after having already drawn a free body diagram for both.
 
+<div style="text-align: center;">
+  <img src="A5-9.jpeg" alt="A5-9">
+</div>
+
+<div style="text-align: center;">
+  <img src="A5-9.5.jpeg" alt="A5-9.5">
+</div>
+
+<div style="text-align: center;">
+  <img src="A5-10.jpeg" alt="A5-10">
+</div>
+
+<div style="text-align: center;">
+  <img src="A5-10.5.jpeg" alt="A5-10.5">
+</div>
+
+
+### Feature F
+
 
 
 ## Decide
