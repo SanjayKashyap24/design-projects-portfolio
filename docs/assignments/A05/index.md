@@ -100,8 +100,15 @@ The two sides for Feature "D" are symmetrical which is why I will only do the wo
 
 
 ### Feature F
+The two sides for Feature "F" are symmetrical which is why I will only do the work for one side and apply it to both sides after having already drawn a free body diagram for both.
 
+<div style="text-align: center;">
+  <img src="A5-11.jpeg" alt="A5-11">
+</div>
 
+<div style="text-align: center;">
+  <img src="A5-12.jpeg" alt="A5-12">
+</div>
 
 ## Decide
 
