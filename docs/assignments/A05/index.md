@@ -63,7 +63,7 @@ When solving for Thickness based off of deflection I accidentally inserted the i
 
 ### Feature C
 
-I decided to make the base of feature "C" 3 inches. L(bab) is the bottom length of the the T block that is being held onto. I decided to assume that feature "C" is a simply supported beam with a load concentrated at the center because it was a recommendation from the professor.
+I decided to make the base (b) of feature "C" and the parts after will be 3 inches. L(bab) is the bottom length of the the T block that is being held onto. I decided to assume that feature "C" is a simply supported beam with a load concentrated at the center because it was a recommendation from the professor.
 
 <div style="text-align: center;">
   <img src="A5-7.jpeg" alt="A5-7">
@@ -83,7 +83,7 @@ When doing my calculations for the height based off of the maximum stress, I acc
 The two sides for Feature "D" are symmetrical which is why I will only do the work for one side and apply it to both sides after having already drawn a free body diagram for both.
 
 <div style="text-align: center;">
-  <img src="A5-9.jpeg" alt="A5-9">
+  <img src="A5-9.jpeg" alt="A5-9">The
 </div>
 
 <div style="text-align: center;">
@@ -110,8 +110,21 @@ The two sides for Feature "F" are symmetrical which is why I will only do the wo
   <img src="A5-12.jpeg" alt="A5-12">
 </div>
 
-## Decide
+## Sketching
 
+I need to do a better job with naming consistency because that made sketching too hard and it kept turning out atrocious.
 
-## Communicate
+## Reflection
 
+### Failur Modes
+The governing failure mode was stiffness. For every single section, Stiffness required the highest minimum lengths. For feature "A" the difference between the two lengths was 1.70 inches.
+
+### Error Propogation
+The Thickness of feature "D" was a component of solving for the height of feature "F" because the thickness of feature "F" was as shown below and in my solving steps.
+
+<p>t<sub>F</sub> = 1 + t<sub>d</sub></p>
+
+This would then go on to affect the height of feature "F"
+
+### Assumption Sensitivity
+The assumption I made that effected the most features was when I assumed the base of feature "C" to be 3 inches in length and this ended up effecting the lengths of the other two dimensions (as in the 3 dimensions) of parts "C" "D" and "F." If I assumed the base to be shorter, the other two dimensions would be longer in length for the features and if I assumed the base to be longer, the other two dimensions would be shorter for the three features.
