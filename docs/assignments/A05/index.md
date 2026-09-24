@@ -35,7 +35,7 @@ I will be going in the order that the force reaches each part so that there is n
 
 ### Feature A
 
-The main objective for optimizing feature "A" is finding diameter after I assumed the length of "A" was 1 inch. I needed to find the moment and reaction force (Ry), but these were very simple, because there is only one vertical force other than Ry, the two forces are equal, but in opposite directions. 
+The main objective for optimizing feature "A" is finding diameter after I assumed the length of "A" was 1 inch. I needed to find the moment and reaction force (Ry), but these were very simple, because there is only one vertical force other than Ry, the two forces are equal, but in opposite directions. I assumed the distributed load was at the center for my calculation, however I accidentally neglected to write this in my hand written work.
 
 <div style="text-align: center;">
   <img src="A5-3.jpeg" alt="A5-3">
@@ -63,6 +63,7 @@ When solving for Thickness based off of deflection I accidentally inserted the i
 
 ### Feature C
 
+I desided 
 
 
 ## Decide
