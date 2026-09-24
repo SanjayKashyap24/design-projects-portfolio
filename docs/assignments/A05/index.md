@@ -23,9 +23,18 @@ I have chosen to design the bracket to withstand a load of 800 lbf and to be mad
   <img src="A5-2.png" alt="A5-2">
 </div>
 
-I will be going in the order that the force reaches each part so that there is no backtracking as I analyze the features.
+I will be going in the order that the force reaches each part so that there is no backtracking as I analyze the features. But first, here are the constants that we know that are known and apply to all features
+
+<p>S<sub>y</sub> = 36,000 psi</p>
+<p>FS = 4</p>
+<p>P = 800 lbf</p>
+<p>F = 400 lbf</p>
+<p>&sigma;<sub>allow</sub> = S<sub>y</sub> / FS = 9,000 psi</p>
+<p>E = 29,000 psi</p>
+<p>&delta;<sub>max</sub> = 0.005 inches</p>
 
 ### Feature A
+
 
 
 
