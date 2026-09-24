@@ -70,10 +70,19 @@ I decided to make the base of feature "C" 3 inches. L(bab) is the bottom length 
 </div>
 
 <div style="text-align: center;">
+  <img src="A5-7.5.jpeg" alt="A5-7.5">
+</div>
+
+<div style="text-align: center;">
   <img src="A5-8.jpeg" alt="A5-8">
 </div>
 
-After calculating the required height based off of stress and based off of deflection, the height based off of deflection was greater. This means that the height used will be the required height from deflection. However, because I need to sketch the design by hand, I will round the height to 5.00 inches.
+When doing my calculations for the height based off of the maximum stress, I accidentally forgot to inlcude the "aba" subtext for the L(aba) a few times, however it is still the same L. After calculating the required height based off of stress and based off of deflection, the height based off of deflection was greater. This means that the height used will be the required height from deflection. However, because I need to sketch the design by hand, I will round the height to 5.00 inches.
+
+### Feature D
+The two sides for Feature "D" are symmetrical which is why I will only do the work for one side and apply it to both sides after having already drawn a free body diagram for both.
+
+
 
 ## Decide
 
