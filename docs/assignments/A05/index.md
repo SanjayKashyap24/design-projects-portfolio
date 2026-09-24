@@ -63,8 +63,17 @@ When solving for Thickness based off of deflection I accidentally inserted the i
 
 ### Feature C
 
-I desided 
+I decided to make the base of feature "C" 3 inches. L(bab) is the bottom length of the the T block that is being held onto. I decided to assume that feature "C" is a simply supported beam with a load concentrated at the center because it was a recommendation from the professor.
 
+<div style="text-align: center;">
+  <img src="A5-7.jpeg" alt="A5-7">
+</div>
+
+<div style="text-align: center;">
+  <img src="A5-8.jpeg" alt="A5-8">
+</div>
+
+After calculating the required height based off of stress and based off of deflection, the height based off of deflection was greater. This means that the height used will be the required height from deflection. However, because I need to sketch the design by hand, I will round the height to 5.00 inches.
 
 ## Decide
 
