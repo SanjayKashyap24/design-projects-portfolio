@@ -94,6 +94,10 @@ The parametric equation for the thickness of the F features was different than t
   <img src="A6-13.png" alt="A6-12">
 </div>
 
+<div align="center">
+<p><strong><a href="A6-SeDes.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
+</div>
+
 ## Decide
 
 
