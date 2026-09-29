@@ -6,11 +6,39 @@ The documentation’s intent is to capture your work and learning process from t
 ## Analyze
 I have decided to parametrically model the bracket in SolidWorks based off of the stiffness calculations because the stiffness calculations required greater lengths and volumes to maintain parameters than the stress calculations required.
 
-I began by putting the initial known values into the global variables chart of SolidWorks, then adding the equations for Feature A.
+I began by putting the initial known values into the global variables chart of SolidWorks. Then I will added the equation for feature "A" before I move onto creating that feature.
 
 <div style="text-align: center;">
   <img src="A6-1.png" alt="A6-1">
 </div>
+
+Below is feature 1 modeled
+
+<div style="text-align: center;">
+  <img src="A6-2.png" alt="A6-2">
+</div>
+
+Below are the added equations for feature B, then the modelled feature B. When entering the equations for feature B, I noticed that the parametrically modelled width was not equal to the width I calculated by hand. This is because I calculated the incorrect width by hand when I plugged in the numbers for my stiffness calculations of feature B. The good news is that my algebraic equations were still correct and parametrically modeling my bracket based upon the algebraic answers will still give me the dimensions I should I have calculated if I had not made mistakes with the arithmetic.
+
+<div style="text-align: center;">
+  <img src="A6-3.png" alt="A6-3">
+</div>
+
+<div style="text-align: center;">
+  <img src="A6-4.png" alt="A6-4">
+</div>
+
+Below are the inserted equations for feature C, and then the modelled feature C.
+
+<div style="text-align: center;">
+  <img src="A6-5.png" alt="A6-5">
+</div>
+
+<div style="text-align: center;">
+  <img src="A6-5.png" alt="A6-5">
+</div>
+
+
 
 ## Decide
 
