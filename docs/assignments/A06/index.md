@@ -107,5 +107,9 @@ This section is the start of the engineering sketch. I am using the "A3 (ISO)" o
 </div>
 
 
-## Communicate
+## Reflection
+
+One analytical equation used to drive an equation was the formula for axial deformation PL/AE. This equation controlled many dimensions such as the height of feature C. I put all of the constant values for the scenario given, such as the modulus of elasticity and yield strength and safety factor. Then I wrote down the algebraic answer I found by hand that solved for the hieght of feature C by rearranging the formula for axial deformation. Next, I wrote that formula into the SolidWorks equation editor. I never had to backtrack and change anything that changed previous formulas, but since I parametrically modelled every dimension I could, any small change to the initial values would greatly change the CAD model and most dimensions.
+
+I did not get to complete the drawing because I did not realize the due date was, for a reason beyond me, switched from every Thursday at 8:30 AM to every Tuesday at 8:30 AM. So when I opened my canvas before going to sleep, I was given the surprise of finding out A6 was due in the morning.
 
