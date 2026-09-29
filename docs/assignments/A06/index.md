@@ -88,6 +88,12 @@ The parametric equation for the thickness of the F features was different than t
   <img src="A6-12.png" alt="A6-12">
 </div>
 
+### Final CAD Model
+
+<div style="text-align: center;">
+  <img src="A6-13.png" alt="A6-12">
+</div>
+
 ## Decide
 
 
