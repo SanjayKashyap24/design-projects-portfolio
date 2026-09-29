@@ -18,7 +18,9 @@ Below is feature 1 modeled
   <img src="A6-2.png" alt="A6-2">
 </div>
 
-Below are the added equations for feature B, then the modelled feature B. When entering the equations for feature B, I noticed that the parametrically modelled width was not equal to the width I calculated by hand. This is because I calculated the incorrect width by hand when I plugged in the numbers for my stiffness calculations of feature B. The good news is that my algebraic equations were still correct and parametrically modeling my bracket based upon the algebraic answers will still give me the dimensions I should I have calculated if I had not made mistakes with the arithmetic.
+Below are the added equations for feature B, then the modelled feature B. 
+
+When entering the equations for feature B, I noticed that the parametrically modelled width was not equal to the width I calculated by hand. This is because I calculated the incorrect width by hand when I plugged in the numbers for my stiffness calculations of feature B. The good news is that my algebraic equations were still correct and parametrically modeling my bracket based upon the algebraic answers will still give me the dimensions I should I have calculated if I had not made mistakes with the arithmetic.
 
 <div style="text-align: center;">
   <img src="A6-3.png" alt="A6-3">
@@ -29,6 +31,8 @@ Below are the added equations for feature B, then the modelled feature B. When e
 </div>
 
 Below are the inserted equations for feature C, and then the modelled feature C.
+
+Upon entering the equation for height length of feature C, I noticed an algebraic mistake with my hand calculations for "h" of feature C where "Lbab" should have been cubed and the denominator inside the cube root should have had a coefficient of 4. Having noticed this problem and fixing it within the parametric equation will ensure this problem does not spread and effect the design of the next features.
 
 <div style="text-align: center;">
   <img src="A6-5.png" alt="A6-5">
