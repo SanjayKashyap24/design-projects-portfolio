@@ -54,6 +54,12 @@ I made 1 symbolic mistake when calculating the thickness of the D features by ha
   <img src="A6-8.png" alt="A6-8">
 </div>
 
+<div style="text-align: center;">
+  <img src="A6-8.png" alt="A6-9">
+</div>
+
+
+
 ## Decide
 
 
