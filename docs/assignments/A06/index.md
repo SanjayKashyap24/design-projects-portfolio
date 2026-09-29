@@ -8,6 +8,9 @@ I have decided to parametrically model the bracket in SolidWorks based off of th
 
 I began by putting the initial known values into the global variables chart of SolidWorks, then adding the equations for Feature A.
 
+<div style="text-align: center;">
+  <img src="A6-1.png" alt="A6-1">
+</div>
 
 ## Decide
 
