@@ -35,7 +35,7 @@ Below are the inserted equations for feature C, and then the modelled feature C.
 </div>
 
 <div style="text-align: center;">
-  <img src="A6-5.png" alt="A6-5">
+  <img src="A6-6.png" alt="A6-6">
 </div>
 
 
