@@ -98,7 +98,13 @@ The parametric equation for the thickness of the F features was different than t
 <p><strong><a href="A6-SeDes.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
 </div>
 
-## Decide
+## Engineering Drawing
+
+This section is the start of the engineering sketch. I am using the "A3 (ISO)" option for sketch format.
+
+<div style="text-align: center;">
+  <img src="A6.1.png" alt="A6.1">
+</div>
 
 
 ## Communicate
