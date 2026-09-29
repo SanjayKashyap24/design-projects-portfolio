@@ -42,7 +42,17 @@ Upon entering the equation for height length of feature C, I noticed an algebrai
   <img src="A6-6.png" alt="A6-6">
 </div>
 
+Below are the inserted equations for the two D features, and then the modelled D features.
 
+I made 1 symbolic mistake when calculating the thickness of the D features by hand. I accidentally denoted the force "F" by using "P" while F is meant to be half of load "P". However, in the arithmetic I still used the correct number for force "F". I fixed this in the parametric equation by using "F" instead of "P"
+
+<div style="text-align: center;">
+  <img src="A6-7.png" alt="A6-7">
+</div>
+
+<div style="text-align: center;">
+  <img src="A6-8.png" alt="A6-8">
+</div>
 
 ## Decide
 
