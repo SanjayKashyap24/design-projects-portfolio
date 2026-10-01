@@ -106,6 +106,11 @@ This section is the start of the engineering sketch. I am using the "A3 (ISO)" o
   <img src="A6.1.png" alt="A6.1">
 </div>
 
+I am going to use tolerances of +0.001  or  +0.002 respectively with -0.000 because this is the opposite of the combined tolerances of the lengths they represent. 
+
+<div align="center">
+<p><strong><a href="A6-SeDes.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
+</div>
 
 ## Reflection
 
