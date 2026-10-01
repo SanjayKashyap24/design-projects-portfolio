@@ -106,15 +106,14 @@ This section is the start of the engineering sketch. I am using the "A3 (ISO)" o
   <img src="A6.1.png" alt="A6.1">
 </div>
 
-I am going to use tolerances of +0.001  or  +0.002 respectively with -0.000 because this is the opposite of the combined tolerances of the lengths they represent. 
+I applied a tighter tolerance to the widths because they were mating surfaces and they would determine how tightly the designed part would hold on. Then I designed a tolerance of only 0.05 to the height of interior of the holding mechanism of the part because if the interior is too small the part will not fit, but any size over the minimum will not prevent the piece from holding on and will save machining costs of the designed part.
 
 <div align="center">
-<p><strong><a href="A6-SeDes.SLDPRT?raw=true">Download SolidWorks Part File</a></strong></p>
+<p><strong><a href="A6-SeDes.SLDDRW?raw=true">Download SolidWorks Drawing File</a></strong></p>
 </div>
 
 ## Reflection
 
 One analytical equation used to drive an equation was the formula for axial deformation PL/AE. This equation controlled many dimensions such as the height of feature C. I put all of the constant values for the scenario given, such as the modulus of elasticity and yield strength and safety factor. Then I wrote down the algebraic answer I found by hand that solved for the hieght of feature C by rearranging the formula for axial deformation. Next, I wrote that formula into the SolidWorks equation editor. I never had to backtrack and change anything that changed previous formulas, but since I parametrically modelled every dimension I could, any small change to the initial values would greatly change the CAD model and most dimensions.
 
-I did not get to complete the drawing because I did not realize the due date was, for a reason beyond me, switched from every Thursday at 8:30 AM to every Tuesday at 8:30 AM. So when I opened my canvas before going to sleep, I was given the surprise of finding out A6 was due in the morning.
-
+For the tighter tolerance class, I applied a tolerance of ±.005 to the width dimensions of the mating surfaces, since these surfaces directly interface with the other part and determine how tightly the designed part holds on; any significant deviation here would either prevent a secure fit or make the connection too loose to function reliably, so a tight tolerance was functionally necessary. In contrast, I applied a looser tolerance of ±.05 to the height of the interior of the holding mechanism, since this is a non-critical, clearance-based dimension — the part only needs to be at or above a certain minimum interior size to fit properly, and any size beyond that minimum does not improve or impair function. Holding a non-critical feature like this to an unnecessarily tight tolerance would increase manufacturing cost and difficulty without any functional benefit, since tighter tolerances generally require slower feed rates, more precise (and often more expensive) machining processes, additional inspection, and higher rates of part rejection during quality control — all for a dimension where that level of precision provides no actual improvement to the part's performance.
