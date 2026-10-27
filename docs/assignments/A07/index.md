@@ -450,13 +450,43 @@ Below is the resultant displacement Simulation
   <img src="B7-7.png" alt="AB7-7">
 </div>
 
-Max von Mises Stress = 1.149*10^9 Psi
+Max von Mises Stress = 1.149*10^7 Psi
 
 Yield Strength (Sy) = 2.500 * 10^8 Psi
 
-Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 0.2176
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 21.76
 
 Maximum Resultant Displacement = 4.618 * 10^(-4) in
+
+
+### Course density mesh
+
+Below is the medium density mesh
+
+<div style="text-align: center;">
+  <img src="B7-5.png" alt="B7-5">
+</div>
+
+
+Below is the von Mises Stress analysis for the medium density mesh.
+
+<div style="text-align: center;">
+  <img src="B7-6.png" alt="B7-6">
+</div>
+
+Below is the resultant displacement Simulation
+
+<div style="text-align: center;">
+  <img src="B7-7.png" alt="AB7-7">
+</div>
+
+Max von Mises Stress = 9.300 * 10^6 Psi
+
+Yield Strength (Sy) = 2.500 * 10^8 Psi
+
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 26.88
+
+Maximum Resultant Displacement = 6.571 * 10^(-4) in
 
 ## Communicate
 
