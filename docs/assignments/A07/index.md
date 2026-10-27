@@ -27,6 +27,8 @@ When initially designing my part I used steel (ASTM A36) because the properties 
   <img src="A7-2.png" alt="A7-2">
 </div>
 
+
+### Iteration Comparison Method
 I will be evaluating each iteration of my design with the table below where the first iteration is the original design A5 and A6 assignment.
 
 
@@ -129,6 +131,8 @@ I will also be adding the applied load to the top of the cylinder holder because
   <img src="A7-4.png" alt="A7-4">
 </div>
 
+
+
 ### Mesh Convergence Study Overview
 For the first test of the each iteration, I used a the medium mesh density with the blended curvature based mesh. For the second test of the each iteration I used the most course blended curvature based mesh. 
 
@@ -151,11 +155,11 @@ I will calculate the percentage change in maximum stress, maximum resultant disp
 </p>
 
 
-If my FEA results have not converged after three mesh attempts, the assignment allows me to proceed using the results from the finest mesh, documenting that convergence was not achieved.
+If my FEA results have not converged after three mesh attempts, the assignment allows me to proceed using the results from the finest mesh, documenting that convergence was not achieved. Convergence is considered within 7%
 
-### Iteration 1
+## Iteration 1
 
-#### Medium density mesh
+### Medium density mesh
 
 Below is the medium density mesh
 
@@ -188,7 +192,7 @@ Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 239,923
 
 Maximum Resultant Displacement = 7.521 * 10^(-7) mm
 
-#### Course Mesh
+### Course Mesh
 
 Below is the course density mesh
 
@@ -220,9 +224,7 @@ Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 337,884
 
 Maximum Resultant Displacement = 7.123 * 10^(-7) mm
 
-#### First Convergence Study
-
-<h3>Mesh Convergence Study</h3>
+### Medium vs. Course Mesh Convergence Study
 
 <table style="width:100%; border-collapse:collapse; text-align:center; font-family:Arial,sans-serif;">
     <thead>
@@ -295,7 +297,7 @@ Maximum Resultant Displacement = 7.123 * 10^(-7) mm
 
 From this I do not believe that the results are not stabilized and I will try a third simulation with the finest density mesh.
 
-#### Fine Mesh
+### Fine Mesh
 
 Below is the fine density mesh
 
@@ -327,10 +329,11 @@ Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 169,377
 
 Maximum Resultant Displacement = 7.753 * 10^(-7) mm
 
-#### Second Mesh Convergence Study
+Here is the factor of safety plot with the factor of safety of 4.
 
 
-<h3>Fine vs. Medium Mesh Convergence Study</h3>
+
+### Fine vs. Medium Mesh Convergence Study
 
 <table style="width:100%; border-collapse:collapse; text-align:center; font-family:Arial,sans-serif;">
     <thead>
@@ -401,8 +404,12 @@ Maximum Resultant Displacement = 7.753 * 10^(-7) mm
     </tbody>
 </table>
 
+### Iteration 1 Conclusion
 
-## Decide
+I believe there was such a large factor of safety because I made my design based off of a much lower modulus of elasticity and I made some mistakes on my initial design which were documented on A6. I will go with the results from the finest density simulation because they did not seam to converge.
+
+## Iteration 2
+For this design I decided to try and remove material because my factor of safety was much higher than it needed to be
 
 
 
