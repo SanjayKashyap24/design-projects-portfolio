@@ -549,7 +549,7 @@ Below is the von Mises Stress analysis for the fine density mesh.
 Below is the resultant displacement Simulation
 
 <div style="text-align: center;">
-  <img src="B7-12.png" alt="AB7-12">
+  <img src="B7-12.png" alt="B7-12">
 </div>
 
 Max von Mises Stress = 1.476 * 10^7 Psi
@@ -559,6 +559,123 @@ Yield Strength (Sy) = 2.500 * 10^8 Psi
 Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 16.94
 
 Maximum Resultant Displacement = 6.835 * 10^(-4) in
+
+### Fine vs. Medium Mesh Convergence Study
+
+
+<table style="width: 100%; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ccc; padding: 10px;">Measurement</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Fine Density</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Medium Density</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Change (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Max von Mises Stress (psi)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">1.476 &times; 10<sup>7</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">1.149 &times; 10<sup>7</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">28.46%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Yield Strength (psi)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">2.500 &times; 10<sup>8</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">2.500 &times; 10<sup>8</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">0%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Minimum Factor of Safety</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">16.94</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">21.76</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">22.15%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Maximum Resultant Displacement (in)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">6.835 &times; 10<sup>-4</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">4.618 &times; 10<sup>-4</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">48.01%</td>
+    </tr>
+  </tbody>
+</table>
+
+### Iteration 2 conclusion
+
+Iteration 2 is much closer to the safety factor, but still 13-24 away from a safety factor of 4.
+
+## iteration 3
+For this iteration, I wanted to make the safety factor slightly lower by cutting even more off and then adding a small web to prevent too much strength from being lost.
+
+<div style="text-align: center;">
+  <img src="C7-1.png" alt="C7-1">
+</div>
+
+<div style="text-align: center;">
+  <img src="C7-2.png" alt="C7-2">
+</div>
+
+<div style="text-align: center;">
+  <img src="C7-3.png" alt="C7-3">
+</div>
+
+### Medium density mesh
+
+Below is the medium density mesh
+
+<div style="text-align: center;">
+  <img src="C7-4.png" alt="C7-4">
+</div>
+
+
+Below is the von Mises Stress analysis for the medium density mesh.
+
+<div style="text-align: center;">
+  <img src="C7-5.png" alt="C7-5">
+</div>
+
+Below is the resultant displacement Simulation
+
+<div style="text-align: center;">
+  <img src="C7-6.png" alt="C7-6">
+</div>
+
+Max von Mises Stress = 2.688 *10^7 Psi
+
+Yield Strength (Sy) = 2.500 * 10^8 Psi
+
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 9.30
+
+Maximum Resultant Displacement = 4.504 * 10^(-4) in
+
+### Course density mesh
+
+Below is the course density mesh
+
+<div style="text-align: center;">
+  <img src="C7-7.png" alt="C7-7">
+</div>
+
+
+Below is the von Mises Stress analysis for the course density mesh.
+
+<div style="text-align: center;">
+  <img src="C7-8.png" alt="C7-8">
+</div>
+
+Below is the resultant displacement Simulation
+
+<div style="text-align: center;">
+  <img src="C7-9.png" alt="C7-9">
+</div>
+
+Max von Mises Stress = 2.688 *10^7 Psi
+
+Yield Strength (Sy) = 2.500 * 10^8 Psi
+
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 9.30
+
+Maximum Resultant Displacement = 4.504 * 10^(-4) in
 
 ## Communicate
 
