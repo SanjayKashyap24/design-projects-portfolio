@@ -155,17 +155,32 @@ If my FEA results have not converged after three mesh attempts, the assignment a
 
 ### Iteration 1
 
-Below is the course mesh
+Below is the medium density mesh
 
 <div style="text-align: center;">
   <img src="A7-5.png" alt="A7-5">
 </div>
 
-Below is the FEA simulation for the course mesh
+Below is the FEA simulation for the medium density mesh
 
 <div style="text-align: center;">
   <img src="A7-6.png" alt="A7-6">
 </div>
+
+Below is the resultant displacement Simulation
+
+<div style="text-align: center;">
+  <img src="A7-7.png" alt="A7-7">
+</div>
+
+Max von Mises Stress = 1.042 * 10^3 n/m^3
+
+Yield Strength (Sy) = 2.500 * 10^8 N/m^2
+
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 239,923
+
+Maximum Resultant Displacement = 7.521 * 10^(-7) mm
+
 
 
 
