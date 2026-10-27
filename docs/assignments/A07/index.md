@@ -141,10 +141,10 @@ I will calculate the percentage change in maximum stress, maximum resultant disp
   <strong>Change (%) = </strong>
   <span style="display: inline-flex; flex-direction: column; text-align: center; vertical-align: middle;">
     <span style="border-bottom: 1px solid black; padding: 4px 8px;">
-      |Medium result − Coarse result|
+      |Higher Density's Result − Lower Density's Result|
     </span>
     <span style="padding: 4px 8px;">
-      |Coarse result|
+      |Higher Density's Result|
     </span>
   </span>
   × 100
@@ -220,7 +220,7 @@ Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 337,884
 
 Maximum Resultant Displacement = 7.123 * 10^(-7) mm
 
-#### Mesh Convergence Study
+#### First Convergence Study
 
 <h3>Mesh Convergence Study</h3>
 
@@ -294,6 +294,112 @@ Maximum Resultant Displacement = 7.123 * 10^(-7) mm
 </table>
 
 From this I do not believe that the results are not stabilized and I will try a third simulation with the finest density mesh.
+
+#### Fine Mesh
+
+Below is the fine density mesh
+
+<div style="text-align: center;">
+  <img src="A7-11.png" alt="A7-11">
+</div>
+
+<div style="text-align: center;">
+  <img src="A7-12.png" alt="A7-12">
+</div>
+
+Below is the FEA simulation for the course density mesh
+
+<div style="text-align: center;">
+  <img src="A7-13.png" alt="A7-13">
+</div>
+
+Below is the resultant displacement Simulation
+
+<div style="text-align: center;">
+  <img src="A7-14.png" alt="A7-14">
+</div>
+
+Max von Mises Stress = 1.476 * 10^3 Psi
+
+Yield Strength (Sy) = 2.500 * 10^8 Psi
+
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 169,377
+
+Maximum Resultant Displacement = 7.753 * 10^(-7) mm
+
+#### Second Mesh Convergence Study
+
+
+<h3>Fine vs. Medium Mesh Convergence Study</h3>
+
+<table style="width:100%; border-collapse:collapse; text-align:center; font-family:Arial,sans-serif;">
+    <thead>
+        <tr style="background-color:#f2f2f2;">
+            <th style="border:1px solid #999; padding:12px; text-align:left;">Measurement</th>
+            <th style="border:1px solid #999; padding:12px;">Fine Density</th>
+            <th style="border:1px solid #999; padding:12px;">Medium Density</th>
+            <th style="border:1px solid #999; padding:12px;">Change (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border:1px solid #999; padding:12px; text-align:left;">
+                Maximum von Mises Stress (Psi)
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                1.476 &times; 10<sup>3</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                1.042 &times; 10<sup>3</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                41.65%
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #999; padding:12px; text-align:left;">
+                Yield Strength (S<sub>y</sub>) (Psi)
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                2.500 &times; 10<sup>8</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                2.500 &times; 10<sup>8</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                N/A
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #999; padding:12px; text-align:left;">
+                Minimum Factor of Safety (FS)
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                169,377
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                239,923
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                29.40%
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #999; padding:12px; text-align:left;">
+                Maximum Resultant Displacement (mm)
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                7.753 &times; 10<sup>-7</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                7.521 &times; 10<sup>-7</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                3.08%
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 
 ## Decide
