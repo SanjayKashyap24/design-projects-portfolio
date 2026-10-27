@@ -172,7 +172,7 @@ Below is the medium density mesh
   <img src="A7-5.png" alt="A7-5">
 </div>
 
-Below is the FEA simulation for the medium density mesh
+Below is the von Mises stress analysis for the medium density mesh
 
 <div style="text-align: center;">
   <img src="A7-6.png" alt="A7-6">
@@ -190,7 +190,7 @@ Yield Strength (Sy) = 2.500 * 10^8 Psi
 
 Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 239,923
 
-Maximum Resultant Displacement = 2.961 * 10^(-7) mm
+Maximum Resultant Displacement = 2.961 * 10^(-7) in
 
 ### Course Mesh
 
@@ -204,7 +204,7 @@ Below is the course density mesh
   <img src="A7-8.png" alt="A7-8">
 </div>
 
-Below is the FEA simulation for the course density mesh
+Below is the von Mises stress analysis for the course density mesh
 
 <div style="text-align: center;">
   <img src="A7-9.png" alt="A7-9">
@@ -309,7 +309,7 @@ Below is the fine density mesh
   <img src="A7-12.png" alt="A7-12">
 </div>
 
-Below is the FEA simulation for the course density mesh
+Below is the von Mises stress analysis for the course density mesh
 
 <div style="text-align: center;">
   <img src="A7-13.png" alt="A7-13">
@@ -429,6 +429,34 @@ Here were the changes I made in order.
   <img src="B7-4.png" alt="B7-4">
 </div>
 
+### Medium density mesh
+
+Below is the medium density mesh
+
+<div style="text-align: center;">
+  <img src="B7-5.png" alt="B7-5">
+</div>
+
+
+Below is the von Mises Stress analysis for the medium density mesh.
+
+<div style="text-align: center;">
+  <img src="B7-6.png" alt="B7-6">
+</div>
+
+Below is the resultant displacement Simulation
+
+<div style="text-align: center;">
+  <img src="B7-7.png" alt="AB7-7">
+</div>
+
+Max von Mises Stress = 1.149*10^9 Psi
+
+Yield Strength (Sy) = 2.500 * 10^8 Psi
+
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 0.2176
+
+Maximum Resultant Displacement = 4.618 * 10^(-4) in
 
 ## Communicate
 
