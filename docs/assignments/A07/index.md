@@ -32,38 +32,6 @@ When initially designing my part I used steel (ASTM A36) because the properties 
 I will be evaluating each iteration of my design with the table below where the first iteration is the original design A5 and A6 assignment.
 
 
-<style>
-    .design-table {
-        width: 100%;
-        border-collapse: collapse;
-        table-layout: fixed;
-        font-family: "Times New Roman", serif;
-        font-size: 20px;
-        color: black;
-    }
-
-    .design-table th,
-    .design-table td {
-        border: 2px solid black;
-        padding: 10px;
-        text-align: left;
-        vertical-align: middle;
-    }
-
-    .design-table th {
-        font-weight: bold;
-    }
-
-    .design-table th:first-child,
-    .design-table td:first-child {
-        width: 25%;
-    }
-
-    .design-table td {
-        height: 24px;
-    }
-</style>
-
 <table class="design-table">
     <thead>
         <tr>
