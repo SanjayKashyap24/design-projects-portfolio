@@ -116,14 +116,35 @@ I will also be adding the applied load to the top of the cylinder holder because
   <img src="A7-4.png" alt="A7-4">
 </div>
 
+### Mesh Analysis
+For the first test of the each iteration, I used a the medium mesh density with the blended curvature based mesh. For the second test of the each iteration I used the most course blended curvature based mesh. 
+
+For each design iteration, I will check the reliability of the SolidWorks high-quality, curvature-based mesh by conducting a mesh convergence study. The only variable I will change during this study is the mesh density. I will compare a coarse mesh with a medium-density mesh, keeping the mesh type and all other simulation settings the same for each comparison.
+
+I will calculate the percentage change in maximum stress, maximum resultant displacement, and minimum factor of safety using the formula below:
+
+
+<p>
+  <strong>Change (%) = </strong>
+  <span style="display: inline-flex; flex-direction: column; text-align: center; vertical-align: middle;">
+    <span style="border-bottom: 1px solid black; padding: 4px 8px;">
+      |Medium result − Coarse result|
+    </span>
+    <span style="padding: 4px 8px;">
+      |Coarse result|
+    </span>
+  </span>
+  × 100
+</p>
+
+
+If my FEA results have not converged after three mesh attempts, the assignment allows me to proceed using the results from the finest mesh, documenting that convergence was not achieved.
+
 ### Iteration 1
-I created a mesh of the first iteration.
 
 <div style="text-align: center;">
   <img src="A7-5.png" alt="A7-5">
 </div>
-
-
 ## Decide
 
 
