@@ -786,5 +786,7 @@ This is convergent so I will use the results from the course density FEA test fo
 </table>
 
 
-## Communicate
+## Reflection
+
+I learned how mesh density affects the accuracy of FEA results. Mesh density can affect the calculated von Mises stress, displacement, and factor of safety. I also learned how modifying a bracket's geometry affects its structural performance. Removing material reduced the overall mass while also changing the stress distribution. Comparing the three designs gave me the opportunity to learn about the trade-off between reducing material usage and maintaining sufficient structural strength.
 
