@@ -409,8 +409,25 @@ Here is the factor of safety plot with the factor of safety of 4.
 I believe there was such a large factor of safety because I made my design based off of a much lower modulus of elasticity and I made some mistakes on my initial design which were documented on A6. I will go with the results from the finest density simulation because they did not seam to converge.
 
 ## Iteration 2
-For this design I decided to try and remove material because my factor of safety was much higher than it needed to be
+For this design I decided to try and remove material because my factor of safety was much higher than it needed to be. I did this with many fillets and one cut.
 
+Here were the changes I made in order.
+
+<div style="text-align: center;">
+  <img src="B7-1.png" alt="B7-1">
+</div>
+
+<div style="text-align: center;">
+  <img src="B7-2.png" alt="B7-2">
+</div>
+
+<div style="text-align: center;">
+  <img src="B7-3.png" alt="B7-3">
+</div>
+
+<div style="text-align: center;">
+  <img src="B7-4.png" alt="B7-4">
+</div>
 
 
 ## Communicate
