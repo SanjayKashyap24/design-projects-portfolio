@@ -110,13 +110,18 @@ Since the inner loop will stay the same, I am adding fixture to the top of the i
   <img src="A7-3.png" alt="A7-3">
 </div>
 
-I will also be adding the applied load to the top of the cylinder holder because this is where the load is originating from.
+I will also be adding the applied load to the top of the cylinder holder because this is where the load is originating from. The load will be 800 Lbf because that is was the previously chosen load. This will remain constant for each iteration.
 
 <div style="text-align: center;">
   <img src="A7-4.png" alt="A7-4">
 </div>
 
-### Design 1
+### Iteration 1
+I created a mesh of the first iteration.
+
+<div style="text-align: center;">
+  <img src="A7-5.png" alt="A7-5">
+</div>
 
 
 ## Decide
