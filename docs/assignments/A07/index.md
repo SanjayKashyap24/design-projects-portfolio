@@ -129,14 +129,14 @@ I will also be adding the applied load to the top of the cylinder holder because
   <img src="A7-4.png" alt="A7-4">
 </div>
 
-### Mesh Analysis
+### Mesh Convergence Study Overview
 For the first test of the each iteration, I used a the medium mesh density with the blended curvature based mesh. For the second test of the each iteration I used the most course blended curvature based mesh. 
 
 For each design iteration, I will check the reliability of the SolidWorks high-quality, curvature-based mesh by conducting a mesh convergence study. The only variable I will change during this study is the mesh density. I will compare a coarse mesh with a medium-density mesh, keeping the mesh type and all other simulation settings the same for each comparison.
 
 I will calculate the percentage change in maximum stress, maximum resultant displacement, and minimum factor of safety using the formula below:
 
-#check to see if formula is working
+
 <p>
   <strong>Change (%) = </strong>
   <span style="display: inline-flex; flex-direction: column; text-align: center; vertical-align: middle;">
@@ -155,7 +155,14 @@ If my FEA results have not converged after three mesh attempts, the assignment a
 
 ### Iteration 1
 
+#### Medium density mesh
+
 Below is the medium density mesh
+
+<div style="text-align: center;">
+  <img src="A7-0.2.png" alt="A7-0.2">
+</div>
+
 
 <div style="text-align: center;">
   <img src="A7-5.png" alt="A7-5">
@@ -173,15 +180,120 @@ Below is the resultant displacement Simulation
   <img src="A7-7.png" alt="A7-7">
 </div>
 
-Max von Mises Stress = 1.042 * 10^3 n/m^3
+Max von Mises Stress = 1.042 * 10^3 Psi
 
-Yield Strength (Sy) = 2.500 * 10^8 N/m^2
+Yield Strength (Sy) = 2.500 * 10^8 Psi
 
 Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 239,923
 
 Maximum Resultant Displacement = 7.521 * 10^(-7) mm
 
+#### Course Mesh
 
+Below is the course density mesh
+
+<div style="text-align: center;">
+  <img src="A7-0.1.png" alt="A7-0.1">
+</div>
+
+<div style="text-align: center;">
+  <img src="A7-8.png" alt="A7-8">
+</div>
+
+Below is the FEA simulation for the course density mesh
+
+<div style="text-align: center;">
+  <img src="A7-9.png" alt="A7-9">
+</div>
+
+Below is the resultant displacement Simulation
+
+<div style="text-align: center;">
+  <img src="A7-10.png" alt="A7-10">
+</div>
+
+Max von Mises Stress = 7.399 *10^2 Psi
+
+Yield Strength (Sy) = 2.500 * 10^8 Psi
+
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 337,884
+
+Maximum Resultant Displacement = 7.123 * 10^(-7) mm
+
+#### Mesh Convergence Study
+
+<h3>Mesh Convergence Study</h3>
+
+<table style="width:100%; border-collapse:collapse; text-align:center; font-family:Arial,sans-serif;">
+    <thead>
+        <tr style="background-color:#f2f2f2;">
+            <th style="border:1px solid #999; padding:12px; text-align:left;">Measurement</th>
+            <th style="border:1px solid #999; padding:12px;">Medium Density</th>
+            <th style="border:1px solid #999; padding:12px;">Coarse Density</th>
+            <th style="border:1px solid #999; padding:12px;">Change (%)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border:1px solid #999; padding:12px; text-align:left;">
+                Maximum von Mises Stress (Pa)
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                1.042 &times; 10<sup>3</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                7.399 &times; 10<sup>2</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                29.20%
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #999; padding:12px; text-align:left;">
+                Yield Strength (Pa)
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                2.500 &times; 10<sup>8</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                2.500 &times; 10<sup>8</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                N/A
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #999; padding:12px; text-align:left;">
+                Minimum Factor of Safety (FS)
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                239,923
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                337,884
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                40.83%
+            </td>
+        </tr>
+        <tr>
+            <td style="border:1px solid #999; padding:12px; text-align:left;">
+                Maximum Resultant Displacement (mm)
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                7.521 &times; 10<sup>-7</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                7.123 &times; 10<sup>-7</sup>
+            </td>
+            <td style="border:1px solid #999; padding:12px;">
+                5%
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+From this I do not believe that the results are not stabilized and I will try a third simulation with the finest density mesh.
 
 
 ## Decide
