@@ -722,6 +722,7 @@ This is convergent so I will use the results from the course density FEA test fo
 ## Iteration Comparison
 
 
+
 <style>
     .design-table {
         width: 100%;
@@ -766,22 +767,40 @@ This is convergent so I will use the results from the course density FEA test fo
     </thead>
     <tbody>
         <tr>
-            <td>Max Stress and Location</td>
-            <td>1.476 &times; 10<sup>3</sup> Pa<br>Location: TBD</td>
-            <td>1.476 &times; 10<sup>7</sup> psi<br>Location: TBD</td>
-            <td>2.688 &times; 10<sup>7</sup> psi<br>Location: TBD</td>
+            <td>Max Stress (psi) and Location</td>
+            <td>
+                1.476 &times; 10<sup>3</sup><br>
+                Very slightly below the top two interior corners of the clamp.
+            </td>
+            <td>
+                1.476 &times; 10<sup>7</sup><br>
+                Corner between the cylinder hanger and the web it hangs from.
+            </td>
+            <td>
+                2.688 &times; 10<sup>7</sup><br>
+                Halfway up, at the end of the web.
+            </td>
         </tr>
         <tr>
-            <td>Max Deflection and Location</td>
-            <td>7.753 &times; 10<sup>-7</sup> mm<br>Location: TBD</td>
-            <td>6.835 &times; 10<sup>-4</sup> in<br>Location: TBD</td>
-            <td>4.504 &times; 10<sup>-4</sup> in<br>Location: TBD</td>
+            <td>Max Deflection (in) and Location</td>
+            <td>
+                3.052 &times; 10<sup>-8</sup><br>
+                Tip end of cylinder hanger.
+            </td>
+            <td>
+                6.835 &times; 10<sup>-4</sup><br>
+                Tip of cylinder hanger.
+            </td>
+            <td>
+                4.350 &times; 10<sup>-4</sup><br>
+                Tip end of cylinder hanger.
+            </td>
         </tr>
         <tr>
-            <td>Mass</td>
-            <td>TBD</td>
-            <td>TBD</td>
-            <td>TBD</td>
+            <td>Mass (lb)</td>
+            <td>55.46</td>
+            <td>44.61</td>
+            <td>43.22</td>
         </tr>
         <tr>
             <td>Safety Factor</td>
@@ -791,12 +810,13 @@ This is convergent so I will use the results from the course density FEA test fo
         </tr>
         <tr>
             <td>Number of Elements</td>
-            <td>TBD</td>
-            <td>TBD</td>
-            <td>TBD</td>
+            <td>62,550</td>
+            <td>62,072</td>
+            <td>8,487</td>
         </tr>
     </tbody>
 </table>
+
 
 ## Communicate
 
