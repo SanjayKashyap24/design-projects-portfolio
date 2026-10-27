@@ -719,5 +719,84 @@ Maximum Resultant Displacement = 4.350 * 10^(-4) in
 
 This is convergent so I will use the results from the course density FEA test for this itteration.
 
+## Iteration Comparison
+
+
+<style>
+    .design-table {
+        width: 100%;
+        border-collapse: collapse;
+        table-layout: fixed;
+        font-family: "Times New Roman", serif;
+        font-size: 20px;
+        color: black;
+    }
+
+    .design-table th,
+    .design-table td {
+        border: 2px solid black;
+        padding: 10px;
+        text-align: left;
+        vertical-align: middle;
+        overflow-wrap: anywhere;
+    }
+
+    .design-table th {
+        font-weight: bold;
+    }
+
+    .design-table th:first-child,
+    .design-table td:first-child {
+        width: 25%;
+    }
+
+    .design-table td {
+        height: 24px;
+    }
+</style>
+
+<table class="design-table">
+    <thead>
+        <tr>
+            <th></th>
+            <th>Design I</th>
+            <th>Design II</th>
+            <th>Design III</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Max Stress and Location</td>
+            <td>1.476 &times; 10<sup>3</sup> Pa<br>Location: TBD</td>
+            <td>1.476 &times; 10<sup>7</sup> psi<br>Location: TBD</td>
+            <td>2.688 &times; 10<sup>7</sup> psi<br>Location: TBD</td>
+        </tr>
+        <tr>
+            <td>Max Deflection and Location</td>
+            <td>7.753 &times; 10<sup>-7</sup> mm<br>Location: TBD</td>
+            <td>6.835 &times; 10<sup>-4</sup> in<br>Location: TBD</td>
+            <td>4.504 &times; 10<sup>-4</sup> in<br>Location: TBD</td>
+        </tr>
+        <tr>
+            <td>Mass</td>
+            <td>TBD</td>
+            <td>TBD</td>
+            <td>TBD</td>
+        </tr>
+        <tr>
+            <td>Safety Factor</td>
+            <td>169,377</td>
+            <td>16.94</td>
+            <td>9.30</td>
+        </tr>
+        <tr>
+            <td>Number of Elements</td>
+            <td>TBD</td>
+            <td>TBD</td>
+            <td>TBD</td>
+        </tr>
+    </tbody>
+</table>
+
 ## Communicate
 
