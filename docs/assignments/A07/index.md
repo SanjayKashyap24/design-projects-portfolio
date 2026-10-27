@@ -190,7 +190,7 @@ Yield Strength (Sy) = 2.500 * 10^8 Psi
 
 Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 239,923
 
-Maximum Resultant Displacement = 7.521 * 10^(-7) mm
+Maximum Resultant Displacement = 2.961 * 10^(-7) mm
 
 ### Course Mesh
 
@@ -222,7 +222,7 @@ Yield Strength (Sy) = 2.500 * 10^8 Psi
 
 Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 337,884
 
-Maximum Resultant Displacement = 7.123 * 10^(-7) mm
+Maximum Resultant Displacement = 2.804 * 10^(-8) in
 
 ### Medium vs. Course Mesh Convergence Study
 
@@ -280,13 +280,13 @@ Maximum Resultant Displacement = 7.123 * 10^(-7) mm
         </tr>
         <tr>
             <td style="border:1px solid #999; padding:12px; text-align:left;">
-                Maximum Resultant Displacement (mm)
+                Maximum Resultant Displacement (in)
             </td>
             <td style="border:1px solid #999; padding:12px;">
-                7.521 &times; 10<sup>-7</sup>
+                2.961 &times; 10<sup>-8</sup>
             </td>
             <td style="border:1px solid #999; padding:12px;">
-                7.123 &times; 10<sup>-7</sup>
+                2.804 &times; 10<sup>-8</sup>
             </td>
             <td style="border:1px solid #999; padding:12px;">
                 5%
@@ -327,7 +327,7 @@ Yield Strength (Sy) = 2.500 * 10^8 Psi
 
 Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 169,377
 
-Maximum Resultant Displacement = 7.753 * 10^(-7) mm
+Maximum Resultant Displacement = 3.052 * 10^(-8) in
 
 Here is the factor of safety plot with the factor of safety of 4.
 
@@ -389,13 +389,13 @@ Here is the factor of safety plot with the factor of safety of 4.
         </tr>
         <tr>
             <td style="border:1px solid #999; padding:12px; text-align:left;">
-                Maximum Resultant Displacement (mm)
+                Maximum Resultant Displacement (in)
             </td>
             <td style="border:1px solid #999; padding:12px;">
-                7.753 &times; 10<sup>-7</sup>
+                3.052 &times; 10<sup>-8</sup>
             </td>
             <td style="border:1px solid #999; padding:12px;">
-                7.521 &times; 10<sup>-7</sup>
+                2.961 &times; 10<sup>-8</sup>
             </td>
             <td style="border:1px solid #999; padding:12px;">
                 3.08%
