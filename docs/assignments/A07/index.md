@@ -461,14 +461,14 @@ Maximum Resultant Displacement = 4.618 * 10^(-4) in
 
 ### Course density mesh
 
-Below is the medium density mesh
+Below is the course density mesh
 
 <div style="text-align: center;">
   <img src="B7-5.png" alt="B7-5">
 </div>
 
 
-Below is the von Mises Stress analysis for the medium density mesh.
+Below is the von Mises Stress analysis for the course density mesh.
 
 <div style="text-align: center;">
   <img src="B7-6.png" alt="B7-6">
@@ -487,6 +487,78 @@ Yield Strength (Sy) = 2.500 * 10^8 Psi
 Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 26.88
 
 Maximum Resultant Displacement = 6.571 * 10^(-4) in
+
+
+### Medium vs. Course Mesh Convergence Study
+
+
+<table style="width: 100%; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ccc; padding: 10px;">Measurement</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Medium Density</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Coarse Density</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Change (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Max von Mises Stress (psi)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">1.149 &times; 10<sup>7</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">9.300 &times; 10<sup>6</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">23.55%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Yield Strength (psi)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">2.500 &times; 10<sup>8</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">2.500 &times; 10<sup>8</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">0%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Minimum Factor of Safety</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">21.76</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">26.88</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">19.05%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Maximum Resultant Displacement (in)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">4.618 &times; 10<sup>-4</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">6.571 &times; 10<sup>-4</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">29.72%</td>
+    </tr>
+  </tbody>
+</table>
+
+From this I do not believe that the results are not stabilized and I will try a third simulation with the finest density mesh.
+
+### Fine Mesh
+
+Below is the Fine density mesh
+
+<div style="text-align: center;">
+  <img src="B7-10.png" alt="B7-10">
+</div>
+
+
+Below is the von Mises Stress analysis for the fine density mesh.
+
+<div style="text-align: center;">
+  <img src="B7-11.png" alt="B7-11">
+</div>
+
+Below is the resultant displacement Simulation
+
+<div style="text-align: center;">
+  <img src="B7-12.png" alt="AB7-12">
+</div>
+
+Max von Mises Stress = 1.476 * 10^7 Psi
+
+Yield Strength (Sy) = 2.500 * 10^8 Psi
+
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 16.94
+
+Maximum Resultant Displacement = 6.835 * 10^(-4) in
 
 ## Communicate
 
