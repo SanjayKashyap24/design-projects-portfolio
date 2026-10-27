@@ -14,6 +14,7 @@ Your task is simply to create a high stiff, high strength, and lightweight compo
 * Reflect on key engineering lessons learned and time spent.
 
 ## Analyze
+
 The workflow for the component design has an outer loop and an inner loop. The inner loop’s function  is to validate the results. The outer loop’s function is for the geometry design optimization.
 
 When initially designing my part I used steel (ASTM A36) because the properties are already in SolidWorks and cost is not a constraint. I will continue to use this material for my further analysis.
@@ -104,6 +105,18 @@ I will be evaluating each iteration of my design with the table below where the 
     </tbody>
 </table>
 
+
+The known parameters that the design is based off of is
+
+<p>S<sub>y</sub> = 36,000 psi</p>
+<p>Factor of Safety (FS = 4</p>
+<p>P = 800 lbf</p>
+<p>&sigma;<sub>allow</sub> = S<sub>y</sub> / FS = 9,000 psi</p>
+<p>E = 29,000 psi</p>
+<p>&delta;<sub>max</sub> = 0.005 inches</p>
+
+The modulus of elasticity used for calculation (E) is 29,000 psi while the built in modulus of elasticity for the same material in SolidWorks is 29,007,547.53 psi. I updated the elasticity in the parametric equations after noticing this.
+
 Since the inner loop will stay the same, I am adding fixture to the top of the inner loop where the entire design will be hanging off of.
 
 <div style="text-align: center;">
@@ -123,7 +136,7 @@ For each design iteration, I will check the reliability of the SolidWorks high-q
 
 I will calculate the percentage change in maximum stress, maximum resultant displacement, and minimum factor of safety using the formula below:
 
-
+#check to see if formula is working
 <p>
   <strong>Change (%) = </strong>
   <span style="display: inline-flex; flex-direction: column; text-align: center; vertical-align: middle;">
@@ -142,10 +155,22 @@ If my FEA results have not converged after three mesh attempts, the assignment a
 
 ### Iteration 1
 
+Below is the course mesh
+
 <div style="text-align: center;">
   <img src="A7-5.png" alt="A7-5">
 </div>
+
+Below is the FEA simulation for the course mesh
+
+<div style="text-align: center;">
+  <img src="A7-6.png" alt="A7-6">
+</div>
+
+
+
 ## Decide
+
 
 
 ## Communicate
