@@ -669,13 +669,55 @@ Below is the resultant displacement Simulation
   <img src="C7-9.png" alt="C7-9">
 </div>
 
-Max von Mises Stress = 2.688 *10^7 Psi
+Max von Mises Stress = 2.541 *10^7 Psi
 
 Yield Strength (Sy) = 2.500 * 10^8 Psi
 
-Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 9.30
+Minimum Factor of Safety (FS) = (Sy)/(Max vos Mises Stress) = 9.84
 
-Maximum Resultant Displacement = 4.504 * 10^(-4) in
+Maximum Resultant Displacement = 4.350 * 10^(-4) in
+
+### Medium vs. Course Mesh Convergence Study
+
+
+<table style="width: 100%; border-collapse: collapse; text-align: center;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="border: 1px solid #ccc; padding: 10px;">Measurement</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Medium Density</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Coarse Density</th>
+      <th style="border: 1px solid #ccc; padding: 10px;">Change (%)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Max von Mises Stress (psi)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">2.688 &times; 10<sup>7</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">2.541 &times; 10<sup>7</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">5.78%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Yield Strength (psi)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">2.500 &times; 10<sup>8</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">2.500 &times; 10<sup>8</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">0%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Minimum Factor of Safety</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">9.30</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">9.84</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">5.49%</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #ccc; padding: 10px;">Maximum Resultant Displacement (in)</td>
+      <td style="border: 1px solid #ccc; padding: 10px;">4.504 &times; 10<sup>-4</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">4.350 &times; 10<sup>-4</sup></td>
+      <td style="border: 1px solid #ccc; padding: 10px;">3.54%</td>
+    </tr>
+  </tbody>
+</table>
+
+This is convergent so I will use the results from the course density FEA test for this itteration.
 
 ## Communicate
 
