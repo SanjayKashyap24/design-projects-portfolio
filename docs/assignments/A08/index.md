@@ -133,6 +133,14 @@ All the Mac Master spur gears have 20 degree pressure angles
 
 #### Gear and Bearing forces
 
+<div style="text-align: center;">
+  <img src="A8-5.jpeg" alt="A8-5">
+</div>
+
+<div style="text-align: center;">
+  <img src="A8-6.jpeg" alt="A8-6">
+</div>
+
 #### Input Gear
 
 
