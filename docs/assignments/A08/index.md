@@ -171,7 +171,19 @@ I am choosing porous bronze because it is has the largest margin of error in all
 
 #### Thickness
 
+I could not find the hoop strength of porous bronze on any supplied resource, but I found the hoop strength of a similar material on the McMaster Car website "Oil-Filled 841 Bearing Bronze" linked below
+
+https://www.mcmaster.com/products/sintered-metals/bronze-2~/bronze-2~material~841-bearing-bronze/
+
+The hoop strength from the website is 11,000 psi.
+
+I originally assumed a safety factor of 3 because I did not think three was a large safety factor and I did not know what the gear box would be used for, but then I changed it to a safety factor of 4 because 4 is divided 11,000 psi neatly and a safety factor of 2 seamed too low.
+
+<div style="text-align: center;">
+  <img src="A8.1-2.png" alt="A8.1-2">
+</div>
+
 
 
 ## Communicate
-
+This assignment has taken 10 hours. I did not realize how hard this assignment would take and I have greatly struggled with it.
