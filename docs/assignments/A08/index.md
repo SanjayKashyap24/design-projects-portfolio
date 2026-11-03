@@ -17,10 +17,11 @@ Noted:
 
 ## Shaft Design
 
-### Input Shaft
+### Knowns and Unknowns
 
 Known:
 
+The gear ratio is 24:9
 
 For the input shaft
 
@@ -88,6 +89,13 @@ For the output shaft
     <td>1.250 in*lbf</td>
   </tr>
 </table>
+
+The allowable shear stresses come from the strengths found in the Machinery Handbook.
+
+### Finding Speed and Torque of Input Shaft
+
+
+
 
 
 ## Decide
