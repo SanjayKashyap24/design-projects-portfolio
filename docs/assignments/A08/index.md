@@ -183,7 +183,17 @@ I originally assumed a safety factor of 3 because I did not think three was a la
   <img src="A8.1-2.png" alt="A8.1-2">
 </div>
 
+Both minimum walls are about 0.001 in. That’s a theoretical stress minimum, far too thin to make or handle, so the real wall comes from the catalog sleeve. A 0.0625 in wall is about 64 times the stress minimum.
 
+#### Picking Gears
+
+### Gearbox Sketch
+
+I wanted to make a box that almost formed to the curves of the radius of the larger gear. 
+
+<div style="text-align: center;">
+  <img src="A8.1-3.png" alt="A8.1-3">
+</div>
 
 ## Communicate
 This assignment has taken 10 hours. I did not realize how hard this assignment would take and I have greatly struggled with it.
