@@ -119,7 +119,7 @@ The checked shear stress is lower than then maximum allowed shear stress. The mi
 ### Output Shaft
 
 <div style="text-align: center;">
-  <img src="A8-4.jpeg" alt="A8-4">
+  <img src="A8-4.jpg" alt="A8-4">
 </div>
 
 <div style="text-align: center;">
@@ -133,6 +133,8 @@ All the Mac Master spur gears have 20 degree pressure angles
 
 #### Gear and Bearing forces
 
+There was not much I could think to comment on here because it was mostly solving for forces alongside the free body diagram.
+
 <div style="text-align: center;">
   <img src="A8-5.jpeg" alt="A8-5">
 </div>
@@ -141,7 +143,33 @@ All the Mac Master spur gears have 20 degree pressure angles
   <img src="A8-6.jpeg" alt="A8-6">
 </div>
 
-#### Input Gear
+<div style="text-align: center;">
+  <img src="A8-7.jpeg" alt="A8-7">
+</div>
+
+<div style="text-align: center;">
+  <img src="A8-8.jpeg" alt="A8-8">
+</div>
+
+<div style="text-align: center;">
+  <img src="A8-9.jpeg" alt="A8-9">
+</div>
+
+<div style="text-align: center;">
+  <img src="A8-10.jpeg" alt="A8-10">
+</div>
+
+#### Material Selection
+
+Below is the chart of materials I was given to choose from. (We can ignore the temperature column)
+
+<div style="text-align: center;">
+  <img src="A8.1-1.png" alt="A8.1-1">
+</div>
+
+I am choosing porous bronze because it is has the largest margin of error in all three columns.
+
+#### Thickness
 
 
 
