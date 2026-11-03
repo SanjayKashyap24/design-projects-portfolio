@@ -15,12 +15,80 @@ Noted:
 - Make sure there is enough clearance between the gears and the gearbox.
 - Use a running sliding fit for the size of the hole for the shafts.
 
-## Design
+## Shaft Design
 
 ### Input Shaft
+
 Known:
 
-- 
+
+For the input shaft
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse;">
+  <tr>
+    <td>Number of teeth (z)</td>
+    <td>18</td>
+  </tr>
+  <tr>
+    <td>Pitch diameter (D)</td>
+    <td>0.375 in</td>
+  </tr>
+  <tr>
+    <td>Shaft diameter (d)</td>
+    <td>0.125 in</td>
+  </tr>
+  <tr>
+    <td>Shaft length (L)</td>
+    <td>1 in</td>
+  </tr>
+  <tr>
+    <td>Allowable Shear Stress</td>
+    <td>4000 psi</td>
+  </tr>
+  <tr>
+    <td>Speed (N)</td>
+    <td>To be calculated</td>
+  </tr>
+  <tr>
+    <td>Torque (T)</td>
+    <td>To be calculated</td>
+  </tr>
+</table>
+
+
+For the output shaft
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse;">
+  <tr>
+    <td>Number of teeth (z)</td>
+    <td>48</td>
+  </tr>
+  <tr>
+    <td>Pitch diameter (D)</td>
+    <td>1 in</td>
+  </tr>
+  <tr>
+    <td>Shaft diameter (d)</td>
+    <td>0.25 in</td>
+  </tr>
+  <tr>
+    <td>Shaft length (L)</td>
+    <td>1 in</td>
+  </tr>
+  <tr>
+    <td>Allowable Shear Stress</td>
+    <td>8500 psi</td>
+  </tr>
+  <tr>
+    <td>Speed (N)</td>
+    <td>1100 RPM</td>
+  </tr>
+  <tr>
+    <td>Torque (T)</td>
+    <td>1.250 in*lbf</td>
+  </tr>
+</table>
+
 
 ## Decide
 
