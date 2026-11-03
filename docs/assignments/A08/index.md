@@ -1,7 +1,7 @@
 # A8 – Gears
 
 ## Objective
-In this assignment students have the opportunity to design parts of a gear box. The students' work includes the design of a shaft for strength, Students will turn in the assignment through their portfolio albeit CAD files, pictures of sketches, drawing, writings etc. under your Design Assignments tab. Make sure the assignment is legible and laid out in a structured manner. Use Headers. New procedure: Along with posting your work on your portfolio.
+Design a gearbox which can be assembled and disassembled. The spur gears have a gear ratio of 24:9 and are listed in the resource section. The output gear torque and speed are to be 1.25 in-lbf and 1100 rpm relative. The input (pinion,power-transmission) and output (gear, short shaft) shaft diameters are .125 and .25 inches respectively and each have a length of 1 inch. Use the appropriate equations in the Machinery’s Handbook for empirical units. The critical features of the gearbox include the shafts, and the journal bearings.
 
 - Design a gearbox that can be assembled and disassembled.
 - Analyze and size input and output shafts for strength.
@@ -10,8 +10,17 @@ In this assignment students have the opportunity to design parts of a gear box. 
 - Use parametric CAD modeling to generate a final design.
 - Document calculations, sketches, and lessons learned.
 
-## Analyze
+Noted:
+- The shafts are press fit through the hubs of the gears.
+- Make sure there is enough clearance between the gears and the gearbox.
+- Use a running sliding fit for the size of the hole for the shafts.
 
+## Design
+
+### Input Shaft
+Known:
+
+- 
 
 ## Decide
 
