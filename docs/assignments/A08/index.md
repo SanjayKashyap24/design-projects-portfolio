@@ -104,6 +104,14 @@ The allowable shear stresses come from the strengths found in the Machinery Hand
   <b>T<sub>input</sub> = 1.25 in·lb<sub>f</sub> · (<sup>9</sup>&frasl;<sub>24</sub>) = <kbd>0.46875 in·lb<sub>f</sub></kbd></b>
 </p>
 
+<div style="text-align: center;">
+  <img src="A8-1.jpeg" alt="A8-1">
+</div>
+
+<div style="text-align: center;">
+  <img src="A8-2.jpeg" alt="A8-2">
+</div>
+
 ### 
 
 
