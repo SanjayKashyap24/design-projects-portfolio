@@ -92,9 +92,19 @@ For the output shaft
 
 The allowable shear stresses come from the strengths found in the Machinery Handbook.
 
-### Finding Speed and Torque of Input Shaft
+### Input Shaft
 
+#### Free Body Diagram and calculations
 
+<p align="center">
+  <b>N<sub>input</sub> = 1100 RPM · (<sup>24</sup>&frasl;<sub>9</sub>) = <kbd>2,933.3 RPM</kbd></b>
+</p>
+
+<p align="center">
+  <b>T<sub>input</sub> = 1.25 in·lb<sub>f</sub> · (<sup>9</sup>&frasl;<sub>24</sub>) = <kbd>0.46875 in·lb<sub>f</sub></kbd></b>
+</p>
+
+### 
 
 
 
