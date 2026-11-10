@@ -78,7 +78,7 @@ Below I have listed all that is unknown after completing a free body diagram.
 
 ### Free Body Diagram
 <div style="text-align: center;">
-  <img src="A9-1.jpeg" alt="A9-1">
+  <img src="A9-1.jpg" alt="A9-1">
 </div>
 
 ### Unknowns
@@ -152,7 +152,7 @@ Below I have listed all that is unknown after completing a free body diagram.
 Below I have plugged in and verified that my answer was sensible.
 
 <div style="text-align: center;">
-  <img src="A9-1.1.jpeg" alt="A9-1.1">
+  <img src="A9-1.1.jpg" alt="A9-1.1">
 </div>
 
 F1 = 1.32 Lb
