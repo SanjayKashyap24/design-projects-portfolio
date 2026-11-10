@@ -14,8 +14,10 @@ Design a pulley system to transfer power between two parallel axes separated by 
   <img src="A9.1.png" alt="A9.1">
 </div>
 
-## Analyze
-Below I have listed all that is known.
+## The Knowns
+
+Below I have listed all that is known. When I looked up the coefficient of friction, I found many different coefficients, so I settled with a coefficient of friction of 0.6.
+
 
 <h3 align="center"><u>Knowns</u></h3>
 
@@ -42,7 +44,7 @@ Below I have listed all that is known.
   </tr>
   <tr>
     <td>Coefficient of Friction</td>
-    <td>&mu; = 0.7</td>
+    <td>&mu; = 0.6</td>
   </tr>
   <tr>
     <td>Belt Yield Strength</td>
@@ -70,9 +72,16 @@ Below I have listed all that is known.
   </tr>
 </table>
 
+## Designing the Belt
 
-Below I have listed all that is unknown.
+Below I have listed all that is unknown after completing a free body diagram.
 
+### Free Body Diagram
+<div style="text-align: center;">
+  <img src="A9-1.jpeg" alt="A9-1">
+</div>
+
+### Unknowns
 <h3 align="center"><u>Unknowns</u></h3>
 
 <table align="center" border="1" cellpadding="10" cellspacing="0">
@@ -93,6 +102,61 @@ Below I have listed all that is unknown.
     <td>L<sub>o</sub></td>
   </tr>
 </table>
+
+### Solving for Forces
+<h3 align="center"><u>Symbolic Solution</u></h3>
+
+<p align="center">
+  &Sigma;F<sub>x</sub> = 0 = 2F &minus; F<sub>1</sub> &minus; F<sub>2</sub> &rArr; F<sub>1</sub> + F<sub>2</sub> = 2F
+</p>
+
+<p align="center">
+  F<sub>1</sub> / F<sub>2</sub> = e<sup>&mu;&theta;</sup> &rArr; F<sub>1</sub> = F<sub>2</sub>e<sup>&mu;&theta;</sup>
+</p>
+
+<p align="center">
+  2F = F<sub>2</sub>e<sup>&mu;&theta;</sup> + F<sub>2</sub> = F<sub>2</sub>(e<sup>&mu;&theta;</sup> + 1)
+</p>
+
+<p align="center">
+  <kbd>F<sub>2</sub> = 2F / (e<sup>&mu;&theta;</sup> + 1)</kbd>
+  &nbsp;&nbsp;&nbsp;
+  <kbd>F<sub>1</sub> = 2Fe<sup>&mu;&theta;</sup> / (e<sup>&mu;&theta;</sup> + 1)</kbd>
+</p>
+
+<p align="center">
+  A<sub>min</sub> = &pi;d<sub>min</sub><sup>2</sup> / 4
+</p>
+
+<p align="center">
+  d<sub>min</sub> = &radic;(4A<sub>min</sub> / &pi;)
+</p>
+
+<p align="center">
+  &sigma;<sub>max</sub> = F<sub>1</sub> / A<sub>min</sub> = S<sub>yb</sub> / FS &rArr; A<sub>min</sub> = (FS)F<sub>1</sub> / S<sub>yb</sub>
+</p>
+
+<p align="center">
+  A<sub>min</sub> = 2(FS)Fe<sup>&mu;&theta;</sup> / [S<sub>yb</sub>(e<sup>&mu;&theta;</sup> + 1)]
+</p>
+
+<p align="center">
+  <kbd>d<sub>min</sub> = &radic;(8(FS)Fe<sup>&mu;&theta;</sup> / [&pi;S<sub>yb</sub>(e<sup>&mu;&theta;</sup> + 1)])</kbd>
+</p>
+
+<p align="center">
+  L<sub>o</sub> = 2C + &pi;(D + d<sub>min</sub>)
+</p>
+
+
+Below I have plugged in and verified that my answer was sensible.
+
+<div style="text-align: center;">
+  <img src="A9-1.1.jpeg" alt="A9-1.1">
+</div>
+
+F1 = 1.32 Lb
+F2 = 8.68 Lb
 
 ## Decide
 
