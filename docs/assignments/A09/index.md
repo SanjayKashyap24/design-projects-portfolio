@@ -227,7 +227,7 @@ Below is the free body diagram
 ### Plugging in
 
 <div style="text-align: center;">
-  <img src="A9-1.4.jpeg" alt="A9-1.4">
+  <img src="A9-1.4.jpg" alt="A9-1.4">
 </div>
 
 d minimum = 0.113 inches
@@ -236,7 +236,7 @@ d minimum = 0.113 inches
 
 ### Unknown and Assumptions
 
-While designing the shaft, I will assume the bearing supports a 10 lb radial load distributed evenly across the area.
+While designing the shaft, I will assume the bearing supports a 10 lb radial load distributed evenly across the area. I also assumed the bearing length was 2 inches.
 
 <h3 align="center"><u>Unknowns</u></h3>
 
@@ -262,4 +262,8 @@ While designing the shaft, I will assume the bearing supports a 10 lb radial loa
     <td>Material</td>
   </tr>
 </table>
+
+### Free Body Diagram
+
+
 
