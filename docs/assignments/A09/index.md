@@ -297,7 +297,7 @@ I decided to choose acetal because it is the has the closest limits to what are 
 I am sketching a frame; I got creative and tried to think of a frame design that used less material. There is no clear purpose for the frame, so there are no clear conditions to design around, other than having the capacity to fit the pullies. I left the chamfered edges out of the area calculation for ease of calculation. 
 
 <div style="text-align: center;">
-  <img src="A9-1.8.png" alt="A9-1.8">
+  <img src="A9-1.8.jpeg" alt="A9-1.8">
 </div>
 
 ### Safety Factor Calculations
@@ -305,7 +305,7 @@ I am sketching a frame; I got creative and tried to think of a frame design that
 I made sure to check that the safety factor was at least 3.
 
 <div style="text-align: center;">
-  <img src="A9-1.9.png" alt="A9-1.9">
+  <img src="A9-1.9.jpeg" alt="A9-1.9">
 </div>
 
 I have concluded that the safety factor is at least 3.
