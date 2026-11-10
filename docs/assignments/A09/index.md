@@ -165,6 +165,18 @@ F2 = 8.68 Lb
 
 L = 19.64 inches
 
+### Belt Selection
+
+Now that I have found the necessary length of the belt, I can search for what I want on the McMaster-Carr. I knew that I would not be able to find a perfect 19.64 inch belt, so I searched for a 20 inch belt. The closest I could find was a 1/4 inch diameter Polyurethane belth that is 20 inches long. "5727N62_Static-Control Round Belt" is the name of the product.
+
+<div style="text-align: center;">
+  <img src="5727N62_Static-Control Round Belt.pdf" alt="5727N62_Static-Control Round Belt">
+</div>
+
+## Designing the Shaft
+
+
+
 ## Decide
 
 
