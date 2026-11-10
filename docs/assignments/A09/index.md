@@ -156,13 +156,14 @@ Below I have plugged in the values for the algebraic solutions I have found. I a
 </div>
 
 F1 = 1.32 Lb
+
 F2 = 8.68 Lb
 
 <div style="text-align: center;">
   <img src="A9-1.2.jpg" alt="A9-1.2">
 </div>
 
-L = 3.07 inches
+L = 19.64 inches
 
 ## Decide
 
