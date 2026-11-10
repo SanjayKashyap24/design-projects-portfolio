@@ -54,11 +54,11 @@ Below I have listed all that is known.
   </tr>
   <tr>
     <td>Pulley Material</td>
-    <td>SAE 1060 steel in the quenched and tempered (Q&amp;T) condition</td>
+    <td>SAE 1060 steel</td>
   </tr>
   <tr>
     <td>Shaft Material</td>
-    <td> Hardened 1060 steel
+    <td>SAE 1060 steel in the quenched and tempered (Q&amp;T) condition</td>
   </tr>
   <tr>
     <td>Shaft Yield Strength</td>
@@ -67,6 +67,30 @@ Below I have listed all that is known.
   <tr>
     <td>Belt Material</td>
     <td>Polyurethane Rubber</td>
+  </tr>
+</table>
+
+
+Below I have listed all that is unknown.
+
+<h3 align="center"><u>Unknowns</u></h3>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <td>Tight Side Belt Tension</td>
+    <td>F<sub>1</sub></td>
+  </tr>
+  <tr>
+    <td>Loose Side Belt Tension</td>
+    <td>F<sub>2</sub></td>
+  </tr>
+  <tr>
+    <td>Minimum Round Belt Diameter</td>
+    <td>d<sub>min</sub></td>
+  </tr>
+  <tr>
+    <td>Belt Outer Circumference</td>
+    <td>L<sub>o</sub></td>
   </tr>
 </table>
 
