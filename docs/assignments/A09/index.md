@@ -149,7 +149,7 @@ Below I have listed all that is unknown after completing a free body diagram.
 </p>
 
 
-Below I have plugged in and verified that my answer was sensible.
+Below I have plugged in the values for the algebraic solutions I have found. I also wrote out the algebraic solution to the problem to avoid any confusion with my final answers. I also verified that calculated force was sensible. 
 
 <div style="text-align: center;">
   <img src="A9-1.1.jpg" alt="A9-1.1">
@@ -157,6 +157,12 @@ Below I have plugged in and verified that my answer was sensible.
 
 F1 = 1.32 Lb
 F2 = 8.68 Lb
+
+<div style="text-align: center;">
+  <img src="A9-1.2.jpg" alt="A9-1.2">
+</div>
+
+L = 3.07 inches
 
 ## Decide
 
