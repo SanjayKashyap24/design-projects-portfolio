@@ -10,7 +10,13 @@ A tensile tester is a mechanical testing device used to measure how materials re
 
 Design and build a mechanically driven tensile tester capable of applying up to 2 kN axial tensile load with a controllable crosshead speed from 1 to 50 mm/min. Each team is responsible for the mechanical components outlined below. The system will provide consistent, well-aligned loading for polymers and light metals, suitable for instructional use and basic materials evaluation.
 
-## Analyze
+## Leadscrew Diameter
+
+## Selecting the Nut and Flange
+
+## Designing the Crosshead
+
+## Tabulating the Costs
 
 
 ## Decide
