@@ -12,7 +12,7 @@ Design a pulley system to transfer power between two parallel axes separated by 
 
 
 <div style="text-align: center;">
-  <img src="A9-1.png" alt="Initial dimensions chart">
+  <img src="A9.1.png" alt="A9.1">
 </div>
 
 ## Analyze
