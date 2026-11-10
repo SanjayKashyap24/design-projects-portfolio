@@ -229,3 +229,37 @@ Below is the free body diagram
 <div style="text-align: center;">
   <img src="A9-1.4.jpeg" alt="A9-1.4">
 </div>
+
+d minimum = 0.113 inches
+
+## Designing the Shaft
+
+### Unknown and Assumptions
+
+While designing the shaft, I will assume the bearing supports a 10 lb radial load distributed evenly across the area.
+
+<h3 align="center"><u>Unknowns</u></h3>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <td>Bearing Length</td>
+    <td>L</td>
+  </tr>
+  <tr>
+    <td>Velocity</td>
+    <td>v</td>
+  </tr>
+  <tr>
+    <td>Bearing Pressure</td>
+    <td>p</td>
+  </tr>
+  <tr>
+    <td>PV Factor</td>
+    <td>p &middot; v</td>
+  </tr>
+  <tr>
+    <td>Material</td>
+    <td>Material</td>
+  </tr>
+</table>
+
