@@ -265,5 +265,18 @@ While designing the shaft, I will assume the bearing supports a 10 lb radial loa
 
 ### Free Body Diagram
 
+<div style="text-align: center;">
+  <img src="A9-1.5.jpg" alt="A9-1.5">
+</div>
 
+### Solving for the Unknown
 
+<div style="text-align: center;">
+  <img src="A9-1.6.jpg" alt="A9-1.6">
+</div>
+
+P = 44.25 psi
+
+V = 44.37 ft/min
+
+PV = 1963.37 psi ft/min
