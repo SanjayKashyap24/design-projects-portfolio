@@ -289,3 +289,33 @@ Below are the materials provided to choose from.
   <img src="A9-1.7.png" alt="A9-1.7">
 </div>
 
+I decided to choose acetal because it is the has the closest limits to what are required without going under and there is plenty of range for safety after the calculated safety factor.
+
+## Designing the Frame
+
+### Sketch
+I am sketching a frame; I got creative and tried to think of a frame design that used less material. There is no clear purpose for the frame, so there are no clear conditions to design around, other than having the capacity to fit the pullies. I left the chamfered edges out of the area calculation for ease of calculation. 
+
+<div style="text-align: center;">
+  <img src="A9-1.8.png" alt="A9-1.8">
+</div>
+
+### Safety Factor Calculations
+
+I made sure to check that the safety factor was at least 3.
+
+<div style="text-align: center;">
+  <img src="A9-1.9.png" alt="A9-1.9">
+</div>
+
+I have concluded that the safety factor is at least 3.
+
+## Conclusion
+
+### Lessons Learned
+
+I learned how to design a pully system and then how to find the items I need online. Looking through McMaster-Carr for the item I needed was tricky, but now I know I will be able to find belts in the future. I also learned the difference between tight-side and slack-side tensions and how it changes the transmission of torque from the associated lecture.
+
+### Time Spent
+
+This assignment took me 3.5 hours to complete
