@@ -175,7 +175,34 @@ Now that I have found the necessary length of the belt, I can search for what I 
 
 ## Designing the Shaft
 
+### Unknowns 
 
+Below is everything unknown when designing my shaft
+
+<h3 align="center"><u>Unknowns</u></h3>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <td>Transmitted Shaft Torque</td>
+    <td>T</td>
+  </tr>
+  <tr>
+    <td>Allowable Shear Stress</td>
+    <td>&tau;<sub>allow</sub></td>
+  </tr>
+  <tr>
+    <td>Minimum Shaft Diameter</td>
+    <td>d<sub>min</sub></td>
+  </tr>
+</table>
+
+### Free Body Diagram
+
+Below is the free body diagram
+
+<div style="text-align: center;">
+  <img src="A9-1.3.jpg" alt="A9-1.3">
+</div>
 
 ## Decide
 
