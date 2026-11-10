@@ -280,3 +280,12 @@ P = 44.25 psi
 V = 44.37 ft/min
 
 PV = 1963.37 psi ft/min
+
+### Selecting material
+
+Below are the materials provided to choose from.
+
+<div style="text-align: center;">
+  <img src="A9-1.7.png" alt="A9-1.7">
+</div>
+
