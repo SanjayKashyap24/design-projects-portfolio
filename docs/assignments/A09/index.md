@@ -201,7 +201,7 @@ Below is everything unknown when designing my shaft
 Below is the free body diagram
 
 <div style="text-align: center;">
-  <img src="A9-1.3.jpg" alt="A9-1.3">
+  <img src="A9-1.3.jpeg" alt="A9-1.3">
 </div>
 
 ## Decide
