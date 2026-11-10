@@ -10,7 +10,6 @@ Design a pulley system to transfer power between two parallel axes separated by 
 - Safety Factor: The design must satisfy a minimum safety factor of 3.
 - Assume the belt is made from polyurethane rubber, with a yield strength of 3.25 MPa (471 psi) at 20% strain, based on: Wanga, Chena, Wua, Zhangb, Suna, “Strain-induced Structural and Dynamic Changes in Segmented Polyurethane Elastomers.”
 
-
 <div style="text-align: center;">
   <img src="A9.1.png" alt="A9.1">
 </div>
