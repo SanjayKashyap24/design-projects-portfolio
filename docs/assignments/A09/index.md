@@ -15,7 +15,60 @@ Design a pulley system to transfer power between two parallel axes separated by 
 </div>
 
 ## Analyze
+Below I have listed all that is known.
 
+<h3 align="center"><u>Knowns</u></h3>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <td>Pulley Diameters</td>
+    <td>D = 3 in</td>
+  </tr>
+  <tr>
+    <td>Pulley Center Distance</td>
+    <td>C = 5 in</td>
+  </tr>
+  <tr>
+    <td>Rotational Speed</td>
+    <td>RPM = 1500 rpm</td>
+  </tr>
+  <tr>
+    <td>Stationary Belt Tension</td>
+    <td>F = 5 lbf</td>
+  </tr>
+  <tr>
+    <td>Angle of Wrap</td>
+    <td>&theta; = 180&deg; = &pi; radians</td>
+  </tr>
+  <tr>
+    <td>Coefficient of Friction</td>
+    <td>&mu; = 0.7</td>
+  </tr>
+  <tr>
+    <td>Belt Yield Strength</td>
+    <td>S<sub>yb</sub> = 471 psi</td>
+  </tr>
+  <tr>
+    <td>Safety Factor</td>
+    <td>FS = 3</td>
+  </tr>
+  <tr>
+    <td>Pulley Material</td>
+    <td>SAE 1060 steel in the quenched and tempered (Q&amp;T) condition</td>
+  </tr>
+  <tr>
+    <td>Shaft Material</td>
+    <td> Hardened 1060 steel
+  </tr>
+  <tr>
+    <td>Shaft Yield Strength</td>
+    <td>S<sub>ys</sub> = 111,000 psi</td>
+  </tr>
+  <tr>
+    <td>Belt Material</td>
+    <td>Polyurethane Rubber</td>
+  </tr>
+</table>
 
 ## Decide
 
