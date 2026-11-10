@@ -204,8 +204,28 @@ Below is the free body diagram
   <img src="A9-1.3.jpeg" alt="A9-1.3">
 </div>
 
-## Decide
+### Solving
 
+<h3 align="center"><u>Solving for Shaft Diameter</u></h3>
 
-## Communicate
+<p align="center">
+  &Sigma;T = T - T<sub>belt</sub> &rArr; T = T<sub>belt</sub> = (F<sub>1</sub> - F<sub>2</sub>) &middot; (D / 2)
+</p>
 
+<p align="center">
+  &tau;<sub>max</sub> = (T &middot; r) / J = (16 T) / (&pi; d<sub>min</sub><sup>3</sup>)
+</p>
+
+<p align="center">
+  &tau;<sub>allow</sub> = S<sub>ys</sub> / FS = (16 T) / (&pi; d<sub>min</sub><sup>3</sup>)
+</p>
+
+<div align="center" style="border: 1px solid #333; padding: 10px; margin: 15px auto; display: table;">
+  d<sub>min</sub> = <sup>3</sup>&radic;<span style="text-decoration: overline;">&nbsp;[8 &middot; (FS) &middot; (F<sub>1</sub> - F<sub>2</sub>) &middot; D] / [&pi; &middot; S<sub>ys</sub>]&nbsp;</span>
+</div>
+
+### Plugging in
+
+<div style="text-align: center;">
+  <img src="A9-1.4.jpeg" alt="A9-1.4">
+</div>
