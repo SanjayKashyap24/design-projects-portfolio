@@ -12,9 +12,9 @@ Design and build a mechanically driven tensile tester capable of applying up to 
 
 ## Leadscrew Diameter
 
-## Designing Nut and Flange - Sanjay Kashyap
+## Designing Nut and Flange (Saeed Malik)
 
-### Starting Selection
+### Starting Selection (Sanjay Kashyap)
 
  My teammate's lead screw selection is:
 - Thread type: Acme
@@ -44,78 +44,79 @@ Below are the specifications of Flange: 95082A641
 - 1 39/64" outside diameter
 - 13/32" thickness
 
-### Internal Thread Bending Analysis
-
-#### Known and Unknown
-
-<h3>Knowns and Unknowns</h3>
-
-<table>
-  <thead>
-    <tr>
-      <th>Parameter</th>
-      <th>Symbol</th>
-      <th>Value</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Total Applied Load</td>
-      <td>W</td>
-      <td>2,000 N</td>
-    </tr>
-    <tr>
-      <td>Number of Lead Screws</td>
-      <td>n</td>
-      <td>2</td>
-    </tr>
-    <tr>
-      <td>Force per Lead Screw</td>
-      <td>F</td>
-      <td>1,000 N (224.81 lbf)</td>
-    </tr>
-    <tr>
-      <td>Factor of Safety</td>
-      <td>FS</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>Thread Pitch</td>
-      <td>p</td>
-      <td>0.125 in</td>
-    </tr>
-    <tr>
-      <td>Nut Engagement Length</td>
-      <td>L<sub>e</sub></td>
-      <td>0.625 in</td>
-    </tr>
-    <tr>
-      <td>Lead Screw Minor Diameter</td>
-      <td>d<sub>r</sub></td>
-      <td>0.265 in</td>
-    </tr>
-    <tr>
-      <td>Number of Engaged Threads</td>
-      <td>N<sub>t</sub></td>
-      <td>Unknown</td>
-    </tr>
-    <tr>
-      <td>Thread Bending Stress</td>
-      <td>&sigma;<sub>b</sub></td>
-      <td>Unknown</td>
-    </tr>
-    <tr>
-      <td>Required Bronze Yield Strength</td>
-      <td>S<sub>y</sub></td>
-      <td>Unknown</td>
-    </tr>
-  </tbody>
-</table>
-
-###
-
 
 ## Designing the Crosshead
+
+### Known and Unknown
+
+I chose the center of center distance of 9 because half the 18 in screw length, which is likely what the example team did. It clears grips, specimen and load cell, and a short span keeps deflection low. I chose a width of 2 inches because it fits a typical 3/8-8 bronze flange nut. Check the datasheet of the nut you pick and widen it if the flange is larger. I chose the material 6061-T6 aluminum because it is inexpensive.
+
+<h2>Known Parameters</h2>
+
+<ul>
+  <li>
+    <strong>Maximum Crosshead Deflection:</strong>
+    &delta; = 0.1 mm
+  </li>
+  <li>
+    <strong>Factor of Safety:</strong>
+    FS = 4
+  </li>
+  <li>
+    <strong>Center-to-Center Distance Between Screws:</strong>
+    L = 9 in (228.6 mm)
+  </li>
+  <li>
+    <strong>Flange Width:</strong>
+    b = 2 in (50.8 mm)
+  </li>
+  <li>
+    <strong>Total Length:</strong>
+    L<sub>total</sub> &approx; 10 in
+  </li>
+  <li>
+    <strong>Modulus of Elasticity:</strong>
+    E = 68.9 GPa
+  </li>
+  <li>
+    <strong>Yield Strength:</strong>
+    S<sub>y</sub> = 276 MPa
+  </li>
+  <li>
+    <strong>Applied Load:</strong>
+    P = 2000 N
+  </li>
+  <li>
+    <strong>Allowable Stress:</strong>
+    &sigma;<sub>allow</sub> =
+    S<sub>y</sub> / FS =
+    276 MPa / 4 =
+    <strong>69 MPa</strong>
+  </li>
+</ul>
+
+<hr>
+
+<h2>Unknown Parameters</h2>
+
+<ul>
+  <li>
+    <strong>Crosshead Height:</strong>
+    H
+  </li>
+  <li>
+    <strong>Axial Stress:</strong>
+    &sigma;<sub>axial</sub>
+  </li>
+  <li>
+    <strong>Bending Stress:</strong>
+    &sigma;<sub>bending</sub>
+  </li>
+</ul>
+
+
+
+
 
 ## Tabulating the Costs
 
