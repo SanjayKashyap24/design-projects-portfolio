@@ -140,9 +140,9 @@ Below are my calculations for the minimum height of the flange based off of the 
 
 ### Final Height Decision
 
-The minimum height required based on deflection was higher than minimum height required by stress, meaning the height calculated from deflection will be the height used. 
+The minimum height required based on deflection was higher than minimum height required by stress, meaning the height calculated from deflection will be the height used. The calculated minimum was 26 mm (1.02 in). 1.0 in stock gives δ = 0.104 mm which exceeds the 0.1 mm limit, so the next standard thickness, 1.25 in, was selected.
 
-H = 1.02 in
+H = 1.25 in
 
 ## Tabulating the Costs
 
