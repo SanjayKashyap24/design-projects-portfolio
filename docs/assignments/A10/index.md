@@ -16,33 +16,45 @@ Design and build a mechanically driven tensile tester capable of applying up to 
 
 ### Starting Selection (Sanjay Kashyap)
 
- My teammate's lead screw selection is:
-- Thread type: Acme
-- Nominal diameter: 3/8 in
-- Thread: 8 TPI
-- Lead: 0.125 in/rev
-- Two identical lead screws
-- Maximum tensile load: 2,000 N
-- Safety factor: 4
+<p>My teammate's lead screw selection is:</p>
 
-I have chosen Bronze Nut: 95072A124
- https://www.mcmaster.com/products/lead-screw-nuts/thread-size~3-8-8/
+<ul>
+  <li>Thread type: Acme</li>
+  <li>Nominal diameter: 3/8 in</li>
+  <li>Thread: 8 TPI</li>
+  <li>Lead: 0.125 in/rev</li>
+  <li>Two identical lead screws</li>
+  <li>Maximum tensile load: 2,000 N</li>
+  <li>Safety factor: 4</li>
+</ul>
 
-Below are the specifications of Bronze Nut: 95072A124
-- 673 bronze
-- 3/8"-8 Stub Acme
-- Single start, 0.125" lead
-- 5/8" nut length
-- 9/16"-18 external thread
+<p>
+  I have chosen Bronze Nut: 95072A124<br>
+  <a href="https://www.mcmaster.com/products/lead-screw-nuts/thread-size~3-8-8/">https://www.mcmaster.com/products/lead-screw-nuts/thread-size~3-8-8/</a>
+</p>
 
+<p>Below are the specifications of Bronze Nut: 95072A124</p>
 
- I have chosen Flange: 95082A641
- https://www.mcmaster.com/products/nuts/thread-size~3-8-8/
+<ul>
+  <li>673 bronze</li>
+  <li>3/8"-8 Stub Acme</li>
+  <li>Single start, 0.125" lead</li>
+  <li>5/8" nut length</li>
+  <li>9/16"-18 external thread</li>
+</ul>
 
-Below are the specifications of Flange: 95082A641
-- 9/16"-18 internal thread
-- 1 39/64" outside diameter
-- 13/32" thickness
+<p>
+  I have chosen Flange: 95082A641<br>
+  <a href="https://www.mcmaster.com/products/nuts/thread-size~3-8-8/">https://www.mcmaster.com/products/nuts/thread-size~3-8-8/</a>
+</p>
+
+<p>Below are the specifications of Flange: 95082A641</p>
+
+<ul>
+  <li>9/16"-18 internal thread</li>
+  <li>1 39/64" outside diameter</li>
+  <li>13/32" thickness</li>
+</ul>
 
 
 ## Designing the Crosshead (Sanjay Kashyap
