@@ -114,11 +114,36 @@ I chose the center of center distance of 9 because half the 18 in screw length, 
   </li>
 </ul>
 
+### Free Body Diagram
 
+Below is a free body diagram of the flange. The dashed lines represent where the lead screw sits.
 
+<div style="text-align: center;">
+  <img src="FlangeFreeBodyDiagram.jpg" alt="FlangeFreeBodyDiagram">
+</div>
 
+### Strength Analysis of Flange Height
+
+Below are my calculations for the minimum height of the flange based off of the maximum allowed. The crosshead is loaded transversely, so the bending stress governs. Axial stress is negligible and is carried by the lead screws (See the lead screw diameter analysis). During these calculations I accidentally switched from using a lowercase "b" to capital "B" however they both represent the flange width.
+
+<div style="text-align: center;">
+  <img src="StressBasedFlangeHeightCalculations.jpg" alt="StressBasedFlangeHeightCalculations">
+</div>
+
+### Deflection Analysis of Flange Height
+
+During these calculations I accidentally switched from using a lowercase "b" to capital "B" however they both represent the flange width.
+
+<div style="text-align: center;">
+  <img src="FlangeHeightBasedDeflection1.jpeg" alt="FlangeHeightBasedDeflection1">
+</div>
+
+<div style="text-align: center;">
+  <img src="FlangeHeightBasedDeflection2.jpeg" alt="FlangeHeightBasedDeflection2">
+</div>
 
 ## Tabulating the Costs
+
 
 
 ## Decide
