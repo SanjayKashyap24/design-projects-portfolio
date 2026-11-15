@@ -127,7 +127,7 @@ Below is a free body diagram of the flange. The dashed lines represent where the
 Below are my calculations for the minimum height of the flange based off of the maximum stress allowed. The crosshead is loaded transversely, so the bending stress governs. Axial stress is negligible and is carried by the lead screws (See the lead screw diameter analysis). During these calculations I accidentally switched from using a lowercase "b" to capital "B" however they both represent the flange width.
 
 <div style="text-align: center;">
-  <img src="StressBasedFlangeHeightCalculations.jpg" alt="StressBasedFlangeHeightCalculations">
+  <img src="FlangeHeightBasedStress.jpeg" alt="FlangeHeightBasedStress">
 </div>
 
 ### Deflection Analysis of Flange Height
