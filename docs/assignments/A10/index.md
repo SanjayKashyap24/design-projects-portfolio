@@ -124,7 +124,7 @@ Below is a free body diagram of the flange. The dashed lines represent where the
 
 ### Strength Analysis of Flange Height
 
-Below are my calculations for the minimum height of the flange based off of the maximum allowed. The crosshead is loaded transversely, so the bending stress governs. Axial stress is negligible and is carried by the lead screws (See the lead screw diameter analysis). During these calculations I accidentally switched from using a lowercase "b" to capital "B" however they both represent the flange width.
+Below are my calculations for the minimum height of the flange based off of the maximum stress allowed. The crosshead is loaded transversely, so the bending stress governs. Axial stress is negligible and is carried by the lead screws (See the lead screw diameter analysis). During these calculations I accidentally switched from using a lowercase "b" to capital "B" however they both represent the flange width.
 
 <div style="text-align: center;">
   <img src="StressBasedFlangeHeightCalculations.jpg" alt="StressBasedFlangeHeightCalculations">
@@ -132,15 +132,17 @@ Below are my calculations for the minimum height of the flange based off of the 
 
 ### Deflection Analysis of Flange Height
 
-During these calculations I accidentally switched from using a lowercase "b" to capital "B" however they both represent the flange width.
+Below are my calculations for the minimum height of the flange based off of the maximum deflection allowed. During these calculations I accidentally switched from using a lowercase "b" to capital "B" however they both represent the flange width.
 
 <div style="text-align: center;">
   <img src="FlangeHeightBasedDeflection1.jpeg" alt="FlangeHeightBasedDeflection1">
 </div>
 
-<div style="text-align: center;">
-  <img src="FlangeHeightBasedDeflection2.jpeg" alt="FlangeHeightBasedDeflection2">
-</div>
+### Final Height Decision
+
+The minimum height required based on deflection was higher than minimum height required by stress, meaning the height calculated from deflection will be the height used. 
+
+H = 1.02 in
 
 ## Tabulating the Costs
 
