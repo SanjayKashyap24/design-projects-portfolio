@@ -45,7 +45,7 @@ Below are the specifications of Flange: 95082A641
 - 13/32" thickness
 
 
-## Designing the Crosshead
+## Designing the Crosshead (Sanjay Kashyap
 
 ### Known and Unknown
 
@@ -143,6 +143,13 @@ Below are my calculations for the minimum height of the flange based off of the 
 The minimum height required based on deflection was higher than minimum height required by stress, meaning the height calculated from deflection will be the height used. The calculated minimum was 26 mm (1.02 in). 1.0 in stock gives δ = 0.104 mm which exceeds the 0.1 mm limit, so the next standard thickness, 1.25 in, was selected.
 
 H = 1.25 in
+
+## Hand Drawn Paper Multiview Paper Sketch (Sanjay Kashyap)
+
+<div style="text-align: center;">
+  <img src="HandrawnMultiviewDrawing.jpeg" alt="HandrawnMultiviewDrawing">
+</div>
+
 
 ## Tabulating the Costs
 
