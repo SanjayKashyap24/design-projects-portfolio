@@ -17,7 +17,7 @@ The screw would not bow or buckle sideways over its 18-inch length when placed u
 
 
 ### Material Selection:
-![a10_2](a10_2.jpg)
+![a10_2](a10_2.png)
 
 
 The medium carbon steel has a maximum average yield strength of 684 MPa (Matweb) and can easily handle the crosshead loading of 2 kN while providing a safety factor (FOS) of 4. The hardness and stiffness of the material will not allow any kind of wear to occur due to friction, and it will not bend the screw due to its 18 inches long span. In addition to all of that, it is readily available and is very cheap compared to other alloys or stainless steels.
