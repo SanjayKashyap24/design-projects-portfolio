@@ -149,7 +149,34 @@ Time: 4 hours
 ## Work
 [A10_SEBASTIANMATEUS](A10_SEBASTIANMATEUS.pdf)
 
+## Leadscrew Selection (Sebastian Mateus) :
+
+
+After calculating the theoretical minimum minor diameter of 0.107 inches, I decided to increase the overall dimensions to make sure the leadscrew is readily available through standardized diameters. Since the initial assumption of the leadscrew load being only axial, in real-world application, leadscrews experience different types of loads; given the FOS value of 4, I decided to have a 3/8-inch lead screw (which has a minor diameter of 0.265 inches). Then, given my design assumptions of no column buckling, the big increase in solid material makes sense within the context of the tensile tester. The 3/8-inch lead screw also keeps the safety factor of 4 throughout the 18-inch span, without resorting to unnecessarily heavy and costly material. Additionally, with 42% forward drive efficiency and a lead of 0.125 in/rev, the maximum torque of the motor remains low, at 20.1 in-lbs, in the range of 0.315 to 15.75 RPM. Overall, due to the thread profile providing more solid material to sustain the loads, this results in a better strength-to-weight relationship.
+
+<img width="1148" height="876" alt="image" src="https://github.com/user-attachments/assets/0cf23583-c8e3-48d7-979d-634af8feb779" />
+
 ## Designing Nut and Flange (Saeed Malik)
+
+I had to analyze the internal threads of the nut to then select a proper bronze nut/flange.
+
+### Knowns
+
+Firstly, I started with the known values I had. These were total Force, lead screw count, safety factor, individual force value, diameter, thread pitch and length. At the top of the page are the nut and flanges I selected after finding all the necessary values.
+
+<img width="2032" height="2580" alt="image" src="https://github.com/user-attachments/assets/7650290c-450f-40b0-b344-cf2603b5853e" />
+
+### Unkowns
+
+Next up was writing down all of our unknown values, along with a Free body diagram of our part with dimensions labeled.
+
+<img width="1780" height="2320" alt="image" src="https://github.com/user-attachments/assets/fe0db286-6c62-411b-b0aa-ec5be1c947fa" />
+### Equations
+
+Lastly, I algebraically and then numerically solved for bending stress, allowable stress and Force values. These values then allowed me to make the selections previously listed.
+
+<img width="1872" height="2424" alt="image" src="https://github.com/user-attachments/assets/b1010c96-62f5-4058-8011-db7e2b4b306a" />
+<img width="1824" height="2324" alt="image" src="https://github.com/user-attachments/assets/fdeafb4f-4ad5-4c86-94a7-6ef7c0e96163" />
 
 ### Starting Selection (Sanjay Kashyap)
 
@@ -169,6 +196,7 @@ Time: 4 hours
   I have chosen Bronze Nut: 95072A124<br>
   <a href="https://www.mcmaster.com/products/lead-screw-nuts/thread-size~3-8-8/">https://www.mcmaster.com/products/lead-screw-nuts/thread-size~3-8-8/</a>
 </p>
+<img width="1136" height="862" alt="image" src="https://github.com/user-attachments/assets/53be2db6-5d68-451b-bb91-662b255c21a9" />
 
 <p>Below are the specifications of Bronze Nut: 95072A124</p>
 
@@ -184,7 +212,8 @@ Time: 4 hours
   I have chosen Flange: 95082A641<br>
   <a href="https://www.mcmaster.com/products/nuts/thread-size~3-8-8/">https://www.mcmaster.com/products/nuts/thread-size~3-8-8/</a>
 </p>
-
+<img width="1132" height="861" alt="image" src="https://github.com/user-attachments/assets/dc87c609-81be-4df6-9ac6-0f10296e6217" />
+ 
 <p>Below are the specifications of Flange: 95082A641</p>
 
 <ul>
