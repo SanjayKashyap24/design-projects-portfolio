@@ -329,12 +329,82 @@ H = 1.25 in
 </div>
 
 
-## Tabulating the Costs
+## Tabulating Costs (Saeed Malik)
 
+After finding all of our necessary values and corresponding parts, we conducted a cost analysis. We added each part, all with a unit cost, amount needed and a total cost at the end. Most of the parts came from McMaster-Carr, while our frame came from 80/20 Build your Ideas as it was relatively cost affective. Our total cost came to $281.91. We would be in the $400s had we gone with another frame.
 
+## Material Cost Analysis
 
-## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
+| Item Number | Quantity | Name | Cost/Item | Cost | Purchase Link |
+|:---|:---:|:---|---:|---:|:---|
+| 1530 | 5 | 1.50” X 3.00” T-Slotted Profile - Six Open T-Slots | $25.51 | $127.55 | [80/20](https://8020.net/1530.html) |
+| 95082A641 | 2 | Lead Screw Nut Flange | $37.06 | $74.12 | [McMaster-Carr](https://www.mcmaster.com/products/nuts/thread-size~3-8-8/) |
+| 95072A124 | 2 | 673 Bronze Stub Acme Nut, 3/8"-8 | $28.72 | $57.44 | [McMaster-Carr](https://www.mcmaster.com/products/lead-screw-nuts/thread-size~3-8-8/) |
+| 99030A986 | 2 | 1018 Carbon Steel Precision Acme Lead Screw | $11.40 | $22.80 | [McMaster-Carr](https://www.mcmaster.com/99030A986/) |
+| | | **Total Cost** | | **$281.91** | |
+
+### Frame
+Below is our selected frame, we will be using 5 of these in our assembly. You can also get them in different colors if desired.
+
+<img width="1081" height="795" alt="image" src="https://github.com/user-attachments/assets/852babf0-dcc5-4f04-add0-bb6a57d5e2df" />
+
+## Parametric Modeling (Saeed Malik)
+This is our CAD process, everything apart from the Cross Thread was downloaded. The Cross Thread design process is as follows.
+First up I wrote some variables:
+
+- Lenght of 11 in
+- Height of 2 in
+- Width of 1.25 in
+- Depth of 0.41 in
+- Hole of 1.63 in
+- Mini Hole of 5/8 in
+All of these values came from our design sketch
+ 
+<img width="1312" height="828" alt="image" src="https://github.com/user-attachments/assets/f99f2996-55eb-4c76-ae48-4033c7c4f80b" />
+
+Firstly I made an 11x2 rectangle and extruded it to 1.25in.
+
+<img width="1787" height="951" alt="image" src="https://github.com/user-attachments/assets/7e5a578a-5ea5-426f-8181-b52d7df55913" />
+
+Then I added the 2 holes for the lead screws. The holes were half way up the part and .2 of the Length away from the edges. Then I made the holes 1.63in and extrude cut them 0.41in, for the counter bore.
+
+<img width="1872" height="998" alt="image" src="https://github.com/user-attachments/assets/f18164b4-41cd-4600-9ee8-7d385e468af1" />
+
+Then I added the mini hole and extrude cut them all the way through.
+
+<img width="1805" height="995" alt="image" src="https://github.com/user-attachments/assets/7cafddb7-ac09-4e58-a5cd-b745e6bd338a" />
+
+I added a construction circle of 1.13 in in diameter, then I added one circle of 0.26in diameter and circular sketch patterned it to have 4 circles for the assembly. I repeated the same process on the other side and then extrude cut these holes all the way through.
+
+<img width="1797" height="962" alt="image" src="https://github.com/user-attachments/assets/17e0dd50-79e0-438e-974b-399bff2b9f77" />
+<img width="1806" height="968" alt="image" src="https://github.com/user-attachments/assets/4ef9c1b1-4634-4aa1-bb43-db062ea98ef7" />
+
+This is the final isometric view of our cross head.
+
+<img width="1407" height="942" alt="image" src="https://github.com/user-attachments/assets/f798aa42-29a3-482b-9d22-542c0d0123aa" />
+
+### Final Assembly
+This was the final CAD assembly with all of our lead screws, nuts, flanges, frames and cross heads.
+
+<img width="1913" height="992" alt="image" src="https://github.com/user-attachments/assets/5a585d3d-7559-4b0b-810a-a92ba47e6981" />
 
 ## Communicate
+### CAD Link
 
+
+-<a href="./Frame.SLDPRT" download>Frame</a>
+
+-<a href="./ThreadedNut.SLDPRT" download>Nut</a>
+
+-<a href="./Flange.SLDPRT" download>Flange</a>
+
+-<a href="./LeadScrew.SLDPRT" download>Lead Screw</a>
+
+-<a href="./CrossHead.SLDPRT" download>Cross Head</a>
+
+-<a href="./Assembly.SLDASM" download>Final Assembly</a>
+
+
+
+### Lessons Learned
+This was a challenging but engaging assignment. It taught me to how calculate values for nuts and how to then use those values to build a machine. Although the greatest challenge came while assembling the project. I initially wanted to use the hole wizard in our cross thread, so that I could do the counter bore and hole in one go for both holes. I needed to do some additional calculations for this and I did them, they are not pictured because they were not right or I did not use the numbers correctly. I tried many times to use the hole wizard and even got it to work once but it was not the size we needed, so I just did it the normal way. Secondly, the assembly took so long because of needing the screw patterns the match up and mesh together so they could rotate. Along with the making the nut and flange in the cross head. A lot of assemblies broke naturally but I eventually figured it out. It took each of us roughly 4-5 hours to complete our own respective parts, which puts the total time at 15 hours. 
