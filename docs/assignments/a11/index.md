@@ -467,5 +467,125 @@ Below is the formula to calculate the percentage change in maximum stress, maxim
 
 The percentages are low, meaning the results are stabilized. I will continue with the results from the fine mesh because they are more accurate since there are more points of reference in the simulation.
 
+### Suggested Changes
 
+A change that I would suggest is adding triangular gusset reinforcements to the two upper interior corners of the assembly. These reinforcements would help transfer the forces from the top frame toward the vertical supports rather than requiring the top frame to carry the loads across its entire length. This should reduce bending stresses in the top frame. I would also expect the critical stress locations to potentially shift toward the gussets' attachment points or the connections between the top frame and vertical supports. 
+
+## Vertical Frame FEA
+
+I originally wanted to open the original assembly and delete the extra components, but I needed to recreate it from scratch because the tope frame did not have any holes in it and used the same model as the vertical frame components. I then created a new assemble that only consisted of the vertical fram component and the top frame which transfers load onto the vertical frame components.
+
+<div style="text-align: center;">
+  <img src="A13-1.png" alt="A13-1">
+</div>
+
+### Setting up FEA
+
+I applied aluminum allow 4032-T6 as the material for each component of the simulation. Next, I applied a fixture to the bottom of the two vertical frames.
+
+<div style="text-align: center;">
+  <img src="A13-2.png" alt="A13-2">
+</div>
+
+Next I applied an force around the holes and set the force parallel to the side and facing downwards. I selected both holes on the same feature and set the force equal to 2000 N.
+
+<div style="text-align: center;">
+  <img src="A13-3.png" alt="A13-3">
+</div>
+
+Then I added a reaction torque to the lead screw holes. I did it in one feature with a value of 12 Nm (6 Nm per hole) because the maximum possible output of each motor is 6 Nm.
+
+<div style="text-align: center;">
+  <img src="A13-4.png" alt="A13-4">
+</div>
+
+### Fine Mesh
+
+I created a high quality fine mesh (seen below). Below the picture of the mesh is a screenshot of the mesh details. A notable takeaway from the mesh details chart is that there are 3,375,640 elements in the mesh.
+
+<div style="text-align: center;">
+  <img src="A13-5.png" alt="A13-5">
+</div>
+
+<div style="text-align: center;">
+  <img src="A13-6.png" alt="A13-6">
+</div>
+
+#### Stress
+
+The maximum stress for the fine mesh is1.641 * 10^11 N/m^2
+
+<div style="text-align: center;">
+  <img src="A13-7.png" alt="A13-7">
+</div>
+
+I attached a phot of the stress simulation from the side for an alternate view.
+
+<div style="text-align: center;">
+  <img src="A13-8.png" alt="A13-8">
+</div>
+
+#### Deflection
+
+The maximum deflection is 1.428 * 10^(-1) mm
+
+<div style="text-align: center;">
+  <img src="A13-9.png" alt="A13-9">
+</div>
+
+<div style="text-align: center;">
+  <img src="A13-10.png" alt="A13-10">
+</div>
+
+
+#### Factor of Safety
+
+The factor of safety (FS) is the yield strength of the material divided by the maximum stress. I did the factor of safety based on the stress because it was closer the limit than the deflection.
+
+The yield strength of the material is 315,000,000 N/m^2 which means the factor of safety is 0.0019
+
+### Medium Mesh
+
+I created a high quality fine mesh (seen below). Below the picture of the mesh is a screenshot of the mesh details. A notable takeaway from the mesh details chart is that there are 996,834 elements in the mesh.
+
+<div style="text-align: center;">
+  <img src="A13-11.png" alt="A13-11">
+</div>
+
+<div style="text-align: center;">
+  <img src="A13-12.png" alt="A13-12">
+</div>
+
+#### Stress
+
+The maximum stress for the fine mesh is 2.537 * 10^11 N/m^2
+
+<div style="text-align: center;">
+  <img src="A13-13.png" alt="A13-13">
+</div>
+
+#### Deflection
+
+The maximum deflection is 1.428 * 10^(-1) mm
+
+<div style="text-align: center;">
+  <img src="A13-14.png" alt="A13-14">
+</div>
+
+### Mesh Convergence Test
+
+Below is the formula to calculate the percentage change in maximum stress, maximum resultant displacement, and minimum factor of safety.
+
+<p>
+  <strong>Change (%) = </strong>
+  <span style="display: inline-flex; flex-direction: column; text-align: center; vertical-align: middle;">
+    <span style="border-bottom: 1px solid black; padding: 4px 8px;">
+      |Higher Density's Result − Lower Density's Result|
+    </span>
+    <span style="padding: 4px 8px;">
+      |Higher Density's Result|
+    </span>
+  </span>
+  × 100
+</p>
 
