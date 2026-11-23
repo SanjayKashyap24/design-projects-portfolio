@@ -310,10 +310,7 @@ I also decided to redesign the overall frame, include my parts in it, and ensure
 
 ## Work (Sebastian Mateus)
 [Work](a11_work.pdf)
-## Analyze
 
+## Top Frame FEA (Sanjay Kashyap)
 
-## Decide
-_Reference your concept selection (Pugh matrix) here. How does this design follow from that decision?_
-
-## Communicate
+I had to begin by adding the holes to the top frame because the member who was in charge of creating the assembly failed to do so.
