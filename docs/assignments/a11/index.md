@@ -449,23 +449,23 @@ Below is the formula to calculate the percentage change in maximum stress, maxim
     <td>Maximum von Mises Stress (N/m<sup>2</sup>)</td>
     <td>3.733 &times; 10<sup>8</sup></td>
     <td>3.817 &times; 10<sup>8</sup></td>
-    <td>+2.25%</td>
+    <td>2.25%</td>
   </tr>
   <tr>
     <td>Maximum Resultant Displacement (mm)</td>
     <td>5.990 &times; 10<sup>&minus;2</sup></td>
     <td>5.989 &times; 10<sup>&minus;2</sup></td>
-    <td>&minus;0.017%</td>
+    <td>0.017%</td>
   </tr>
   <tr>
     <td>Factor of Safety (FS)</td>
     <td>0.844</td>
     <td>0.825</td>
-    <td>&minus;2.25%</td>
+    <td>2.25%</td>
   </tr>
 </table>
 
-
+The percentages are low, meaning the results are stabilized. I will continue with the results from the fine mesh because they are more accurate since there are more points of reference in the simulation.
 
 
 
