@@ -1,7 +1,5 @@
 # A11 – Motor Selection
 
-# A11 – Motor Selection
-
 
 ## Objective (Sebastian Mateus)
 The objective for this stage is to choose an efficient motor and design the complementary drivetrain components (mounting plate and shaft coupling) that will rotate the 3/8-8 STUB screws at speeds from 1 to 50 mm/min. Considering a safety factor of 4 while computing the necessary design torque of 4.54 N·m per screw.
@@ -542,7 +540,7 @@ The maximum deflection is 1.428 * 10^(-1) mm
 
 The factor of safety (FS) is the yield strength of the material divided by the maximum stress. I did the factor of safety based on the stress because it was closer the limit than the deflection.
 
-The yield strength of the material is 315,000,000 N/m^2 which means the factor of safety is 0.0019
+The yield strength of the material is 315,000,000 N/m^2 which means the factor of safety is 0.0019. According to this simulation the stress is too high.
 
 ### Medium Mesh
 
@@ -572,6 +570,13 @@ The maximum deflection is 1.428 * 10^(-1) mm
   <img src="A13-14.png" alt="A13-14">
 </div>
 
+#### Factor of Safety
+
+The factor of safety (FS) is the yield strength of the material divided by the maximum stress. I did the factor of safety based on the stress because it was closer the limit than the deflection.
+
+The yield strength of the material is 315,000,000 N/m^2 which means the factor of safety is 0.0012. According to this simulation the stress is too high.
+
+
 ### Mesh Convergence Test
 
 Below is the formula to calculate the percentage change in maximum stress, maximum resultant displacement, and minimum factor of safety.
@@ -589,3 +594,38 @@ Below is the formula to calculate the percentage change in maximum stress, maxim
   × 100
 </p>
 
+
+<h3 align="center"><u>Vertical Components FEA</u></h3>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <th>Measurement</th>
+    <th>Fine Mesh</th>
+    <th>Medium Mesh</th>
+    <th>Percent Change</th>
+  </tr>
+  <tr>
+    <td>Von Mises Maximum Stress (N/m<sup>2</sup>)</td>
+    <td>1.641 &times; 10<sup>11</sup></td>
+    <td>2.537 &times; 10<sup>11</sup></td>
+    <td>54.60%</td>
+  </tr>
+  <tr>
+    <td>Maximum Deflection (mm)</td>
+    <td>1.428 &times; 10<sup>&minus;1</sup></td>
+    <td>1.417 &times; 10<sup>&minus;1</sup></td>
+    <td>0.77%</td>
+  </tr>
+  <tr>
+    <td>Factor of Safety</td>
+    <td>0.0019</td>
+    <td>0.0012</td>
+    <td>36.84%</td>
+  </tr>
+</table>
+
+The deflection is stabilized, so I will analyze the design based off of deflection. I will still utilize the visual of the stress concentration to decide as the concentration locations remain the same as well as I will be making recommendations with the knowledge that in both simulations the safety factor is far below 1.
+
+### Design Changes
+
+I believe it would be beneficial to add triangular gusset reinforcements to each corner of the frame. These could attach to the base of the assembly, particularly near the existing fixtures at the bottom of the vertical supports. I also think adding reinforcement plates around the middle of the top frame would be beneficial. Using a material with a higher yield strength could improve the load-bearing capacity in these areas and help distribute the applied forces. Finally, I would consider adding two diagonal support beams extending from the base to the top frame, with one beam on each side of the assembly. These supports would be positioned on the sides experiencing the greatest deflection and would help transfer some of the loading directly into the base rather than requiring the top frame to resist as much bending. I would expect these changes to reduce overall deflection and stress in the original frame, although the critical stress locations could shift toward the new reinforcement connections.
