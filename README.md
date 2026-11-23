@@ -54,8 +54,8 @@ MEGR-2156-7-template/
 │       │   └── index.md        <- A10: Lead Screw Part 1
 │       ├── A11/
 │       │   └── index.md        <- A11: Lead Screw Part 2 / Motor Selection
-│       └── A12/
-│           └── index.md        <- A12: [Final Assignment]
+│       └── a12/
+│           └── index.md        <- a12: [Final Assignment]
 ├── templates/
 │   └── assignment-template.md  <- Blank assignment page for reference (not published)
 ├── .gitignore
