@@ -313,6 +313,7 @@ I also decided to redesign the overall frame, include my parts in it, and ensure
 
 ## Top Frame FEA (Sanjay Kashyap)
 
+
 ### Setting Up the FEA
 
 I had to begin by updating the model for the top frame, but adding the "through all" holes through which the lead screw runs through.
@@ -338,4 +339,133 @@ Then I added a reaction torque to the lead screw holes. I did it in one feature 
 <div style="text-align: center;">
   <img src="A12-4.png" alt="A12-4">
 </div>
+
+Next, I specified the material. I selected the aluminum allow 4032-T6 which is closes to the real material of the bar which is heavy 40 Series aluminum.
+
+The yield stress of the material is 315,000,000 N/m^2
+
+
+### Fine Mesh
+
+I created a high quality fine mesh (seen below). Below the picture of the mesh is a screenshot of the mesh details. A notable takeaway from the mesh details chart is that there are 1,110,851 elements in the mesh.
+
+<div style="text-align: center;">
+  <img src="A12-5.png" alt="A12-5">
+</div>
+
+<div style="text-align: center;">
+  <img src="A12-6.png" alt="A12-6">
+</div>
+
+
+The Next step is to run the study
+
+#### Stress 
+
+The maximum stress for the fine mesh is 3.733 * 10 ^8 N/m^2
+
+<div style="text-align: center;">
+  <img src="A12-7.png" alt="A12-7">
+</div>
+
+#### Deflection 
+
+The maximum deflection is 5.990 * 10^(-2) mm
+
+<div style="text-align: center;">
+  <img src="A12-8.png" alt="A12-8">
+</div>
+
+#### Factor of Safety
+
+The factor of safety (FS) is the yield strength of the material divided by the maximum stress. I did the factor of safety based on the stress because it was closer the limit than the deflection.
+
+The Factor of Safety is 0.844 whish is less than 1. According to this simulation the stress is too high.
+
+
+### Medium Mesh
+
+I created a high quality medium mesh (seen below). Below the picture of the mesh is a screenshot of the mesh details. A notable takeaway from the mesh details chart is that there are 771,392 elements in the mesh.
+
+<div style="text-align: center;">
+  <img src="A12-9.png" alt="A12-9">
+</div>
+
+<div style="text-align: center;">
+  <img src="A12-10.png" alt="A12-10">
+</div>
+
+#### Stress
+
+The maximum stress for the fine mesh is 3.817 * 10^8 N/m^2
+
+<div style="text-align: center;">
+  <img src="A12-11.png" alt="A12-11">
+</div>
+
+#### Deflection
+
+The maximum deflection is 5.989 * 10^(-2) mm
+
+<div style="text-align: center;">
+  <img src="A12-12.png" alt="A12-12">
+</div>
+
+#### Factor of Safety
+
+The factor of safety (FS) is the yield strength of the material divided by the maximum stress. I did the factor of safety based on the stress because it was closer the limit than the deflection.
+
+The Factor of Safety is 0.825 whish is less than 1. According to this simulation the stress is too high.
+
+### Mesh Convergence Test
+
+Below is the formula to calculate the percentage change in maximum stress, maximum resultant displacement, and minimum factor of safety.
+
+<p>
+  <strong>Change (%) = </strong>
+  <span style="display: inline-flex; flex-direction: column; text-align: center; vertical-align: middle;">
+    <span style="border-bottom: 1px solid black; padding: 4px 8px;">
+      |Higher Density's Result − Lower Density's Result|
+    </span>
+    <span style="padding: 4px 8px;">
+      |Higher Density's Result|
+    </span>
+  </span>
+  × 100
+</p>
+
+
+
+<h3 align="center"><u>Top Frame FEA</u></h3>
+
+<table align="center" border="1" cellpadding="10" cellspacing="0">
+  <tr>
+    <th>Measurements</th>
+    <th>Fine Density</th>
+    <th>Medium Density</th>
+    <th>Change %</th>
+  </tr>
+  <tr>
+    <td>Maximum von Mises Stress (N/m<sup>2</sup>)</td>
+    <td>3.733 &times; 10<sup>8</sup></td>
+    <td>3.817 &times; 10<sup>8</sup></td>
+    <td>+2.25%</td>
+  </tr>
+  <tr>
+    <td>Maximum Resultant Displacement (mm)</td>
+    <td>5.990 &times; 10<sup>&minus;2</sup></td>
+    <td>5.989 &times; 10<sup>&minus;2</sup></td>
+    <td>&minus;0.017%</td>
+  </tr>
+  <tr>
+    <td>Factor of Safety (FS)</td>
+    <td>0.844</td>
+    <td>0.825</td>
+    <td>&minus;2.25%</td>
+  </tr>
+</table>
+
+
+
+
 
