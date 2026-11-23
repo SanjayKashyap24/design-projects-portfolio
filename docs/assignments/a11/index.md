@@ -313,4 +313,29 @@ I also decided to redesign the overall frame, include my parts in it, and ensure
 
 ## Top Frame FEA (Sanjay Kashyap)
 
-I had to begin by adding the holes to the top frame because the member who was in charge of creating the assembly failed to do so.
+### Setting Up the FEA
+
+I had to begin by updating the model for the top frame, but adding the "through all" holes through which the lead screw runs through.
+
+<div style="text-align: center;">
+  <img src="A12-1.png" alt="A12-1">
+</div>
+
+I then applied a fixture to each side of the top frame component.
+
+<div style="text-align: center;">
+  <img src="A12-2.png" alt="A12-2">
+</div>
+
+Next I applied an force around the holes and set the force parallel to the side and facing downwards. I selected both holes on the same feature and set the force equal to 2000 N.
+
+<div style="text-align: center;">
+  <img src="A12-3.png" alt="A12-3">
+</div>
+
+Then I added a reaction torque to the lead screw holes. I did it in one feature with a value of 12 Nm (6 Nm per hole) because the maximum possible output of each motor is 6 Nm.
+
+<div style="text-align: center;">
+  <img src="A12-4.png" alt="A12-4">
+</div>
+
