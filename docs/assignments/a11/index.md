@@ -485,7 +485,7 @@ I applied aluminum allow 4032-T6 as the material for each component of the simul
   <img src="A13-2.png" alt="A13-2">
 </div>
 
-Next I applied an force around the holes and set the force parallel to the side and facing downwards. I selected both holes on the same feature and set the force equal to 2000 N.
+Next I applied a force around the holes and set the force parallel to the side and facing downwards. I selected both holes on the same feature and set the force equal to 2000 N.
 
 <div style="text-align: center;">
   <img src="A13-3.png" alt="A13-3">
