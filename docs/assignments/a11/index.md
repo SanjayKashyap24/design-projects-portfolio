@@ -31,9 +31,9 @@ After solving for the torque each motor will produce, we need to translate that 
 
 
 ### NEMA Stepper Motor Selection:
-(a11_1)
-(a11_2)
-(a11_3)
+![a11_1](a11_1.png)
+![a11_2](a11_2.png)
+![a11_3](a11_3.png)
 
 
 Based on all the information we have solved for, we decided to select the NEMA 23 Stepper motor with a planetary gearbox with a ratio of 10:1 (23HS22-2804S - HG10). Having a stepper motor is essential in this context because regular ungeared motors do not have the ability to provide 4.52 N·m of torque or rotate seamlessly at ultra-low speeds of 0.315 RPM. Reducing the ratio to 10:1 gears, as shown in the figure above, the speed-torque curve shows
@@ -259,7 +259,7 @@ Starting with the coupler design, we set our outer diameter and extruded it to t
 ![a11_cad4](a11_cad4.png)
 
 
-As shown above, we create the leadscrew housing and place proper depth.
+As shown above, we create the leadscrew housing and set the proper depth.
 
 
 ![a11_cad5](a11_cad5.png)
@@ -306,8 +306,30 @@ The above shows the full assembly of the motor (coupler and bracket included, bo
 I also decided to redesign the overall frame, include my parts in it, and ensure everything fits properly.
 
 
-## Work (Sebastian Mateus)
-[Work](a11_work.pdf)
+<img width="1918" height="804" alt="image" src="https://github.com/user-attachments/assets/26330f2a-c66d-45d7-b7cd-4a9de4da305e" />
+
+
+I decided to use these M5 fasteners to mount the motor assembly to the frame.
+
+
+## Analyze
+### Analyze and Design a Frame
+### T Slot Framing (Saeed Malik)
+
+To analyze the affected twist by the motors to design a bracket to affix the vertical standoffs of the frame to the top of the frame. Also to select a connector. First up I just wrote the general knowns we knew like the load, factor of safety and the selected stepper motor.
+
+<img width="795" height="975" alt="image" src="https://github.com/user-attachments/assets/d03de222-9592-4f6f-9860-80c9946829f8" />
+
+Next up I drew the FBD and calculated how many connectors we need initially.
+
+<img width="805" height="972" alt="image" src="https://github.com/user-attachments/assets/355d620b-2a87-43ec-a577-442f25d6f48b" />
+
+Then I wrote the unknowns which were F1,F2,T total, bearing stress and bracket bending. Then I symbolically and then numerically solved for the unknown values.
+
+<img width="797" height="916" alt="image" src="https://github.com/user-attachments/assets/aa976666-2204-4b16-a4e7-191eb87d574e" />
+<img width="757" height="872" alt="image" src="https://github.com/user-attachments/assets/4c385b82-0020-47b4-9c56-40c6902c73a9" />
+
+
 
 ## Top Frame FEA (Sanjay Kashyap)
 
@@ -326,7 +348,7 @@ I then applied a fixture to each side of the top frame component.
   <img src="A12-2.png" alt="A12-2">
 </div>
 
-Next I applied an force around the holes and set the force parallel to the side and facing downwards. I selected both holes on the same feature and set the force equal to 2000 N.
+Next I applied a force around the holes and set the force parallel to the side and facing downwards. I selected both holes on the same feature and set the force equal to 2000 N.
 
 <div style="text-align: center;">
   <img src="A12-3.png" alt="A12-3">
@@ -358,7 +380,7 @@ I created a high quality fine mesh (seen below). Below the picture of the mesh i
 
 The Next step is to run the study
 
-#### Stress 
+#### Stress
 
 The maximum stress for the fine mesh is 3.733 * 10 ^8 N/m^2
 
@@ -366,7 +388,7 @@ The maximum stress for the fine mesh is 3.733 * 10 ^8 N/m^2
   <img src="A12-7.png" alt="A12-7">
 </div>
 
-#### Deflection 
+#### Deflection
 
 The maximum deflection is 5.990 * 10^(-2) mm
 
@@ -467,9 +489,9 @@ The percentages are low, meaning the results are stabilized. I will continue wit
 
 ### Suggested Changes
 
-A change that I would suggest is adding triangular gusset reinforcements to the two upper interior corners of the assembly. These reinforcements would help transfer the forces from the top frame toward the vertical supports rather than requiring the top frame to carry the loads across its entire length. This should reduce bending stresses in the top frame. I would also expect the critical stress locations to potentially shift toward the gussets' attachment points or the connections between the top frame and vertical supports. 
+A change that I would suggest is adding triangular gusset reinforcements to the two upper interior corners of the assembly. These reinforcements would help transfer the forces from the top frame toward the vertical supports rather than requiring the top frame to carry the loads across its entire length. This should reduce bending stresses in the top frame. I would also expect the critical stress locations to potentially shift toward the gussets' attachment points or the connections between the top frame and vertical supports.
 
-## Vertical Frame FEA (Sanjay Kashyap)
+## Vertical Frame FEA
 
 I originally wanted to open the original assembly and delete the extra components, but I needed to recreate it from scratch because the tope frame did not have any holes in it and used the same model as the vertical frame components. I then created a new assemble that only consisted of the vertical fram component and the top frame which transfers load onto the vertical frame components.
 
@@ -485,7 +507,7 @@ I applied aluminum allow 4032-T6 as the material for each component of the simul
   <img src="A13-2.png" alt="A13-2">
 </div>
 
-Next I applied a force around the holes and set the force parallel to the side and facing downwards. I selected both holes on the same feature and set the force equal to 2000 N.
+Next I applied an force around the holes and set the force parallel to the side and facing downwards. I selected both holes on the same feature and set the force equal to 2000 N.
 
 <div style="text-align: center;">
   <img src="A13-3.png" alt="A13-3">
@@ -629,3 +651,146 @@ The deflection is stabilized, so I will analyze the design based off of deflecti
 ### Design Changes
 
 I believe it would be beneficial to add triangular gusset reinforcements to each corner of the frame. These could attach to the base of the assembly, particularly near the existing fixtures at the bottom of the vertical supports. I also think adding reinforcement plates around the middle of the top frame would be beneficial. Using a material with a higher yield strength could improve the load-bearing capacity in these areas and help distribute the applied forces. Finally, I would consider adding two diagonal support beams extending from the base to the top frame, with one beam on each side of the assembly. These supports would be positioned on the sides experiencing the greatest deflection and would help transfer some of the loading directly into the base rather than requiring the top frame to resist as much bending. I would expect these changes to reduce overall deflection and stress in the original frame, although the critical stress locations could shift toward the new reinforcement connections.
+
+
+## Design Floating Bearing Mount (Sebastian Mateus)
+<img width="993" height="622" alt="image" src="https://github.com/user-attachments/assets/44b1519d-58dd-4760-a1b9-fdd3f187c61d" />
+
+The objective of this section is to design a floating bearing that will be fixed to the base aluminum member in such a way as to radially support the bottom portion of each 3/8"-8 STUB lead screw within a range of 0.315 to 15.75 RPM.
+
+
+As shown above, the knowns and unknowns allow us to find the necessary parameters for the material selection of the bracket.
+
+
+### Solving for Surface Velocity:
+<img width="940" height="256" alt="image" src="https://github.com/user-attachments/assets/96d6ef34-7b1c-4549-b4da-c0755fb96b2f" />
+
+
+As shown above, in order to solve for surface velocity, we need to incorporate the major diameter of the leadscrew as well as the worst-case scenario of the rotating speed that the leadscrew will endure. In doing so, we get a surface velocity of 1.5461 FPM.
+
+
+### Solving for Pressure (P):
+<img width="931" height="235" alt="image" src="https://github.com/user-attachments/assets/bcc0b688-af81-4615-b3b8-8d827de8292e" />
+
+As shown above, solving for the pressure (P) by using the converted force (F) that each leadscrew will get affected by, over the area of the leadscrew. Assuming the leadscrew geometry for simple calculations is a cylinder, we can use its major diameter parameter for its area. In doing so, we get a pressure of 2035.463 PSI.
+
+
+### Solving for PV rating:
+<img width="859" height="280" alt="image" src="https://github.com/user-attachments/assets/2a3db4bb-ca73-424d-90d3-d8db274a5b02" />
+
+
+As shown above, the PV rating is simply the product of the surface velocity and the pressure previously solved for. In doing so, we get a PV rating of 3147.029.
+
+
+### Floating Bearing Material Selection:
+<img width="510" height="658" alt="image" src="https://github.com/user-attachments/assets/5f4b3608-5a87-4dd0-85ca-a9490702c6c4" />
+
+<img width="1030" height="567" alt="image" src="https://github.com/user-attachments/assets/08ae2b7b-7f53-4cf4-b69b-c9724a92e260" />
+
+
+Based on the parameters previously solved for, I chose porous bronze as the material for the bearing. My design of the mount consists of a square bearing bronze plate with a blind bearing pocket at its center and four mounting holes at the corners. Having porous bronze as the material means having a low-friction surface of the journal against a medium-carbon steel lead screw without any additional press-fit bushing. The counterbores hold the lead screw in place from one end, while the holes are for fixing the plate in the tensile tester frame.
+
+
+Each piece of information from the machinery handbook is labeled with the page number.
+
+
+### Designing Bearing
+<img width="1918" height="1008" alt="image" src="https://github.com/user-attachments/assets/49b9f900-d725-4019-bc20-d40ef66986e4" />
+
+<img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/2b74860d-5ceb-4662-986d-d854f47df5de" />
+
+Here are the extruded holes as well as the counterbores.
+
+
+<img width="1918" height="1009" alt="image" src="https://github.com/user-attachments/assets/738cf7fc-e75b-4723-afca-a6f8ae3cf538" />
+
+
+Here are the material properties used for the floating bearing mount.
+
+
+
+## Frame Assembly With Proper Mounting (Sebastian Mateus)
+<img width="1426" height="661" alt="image" src="https://github.com/user-attachments/assets/5ce1775d-d40e-4a05-8d4e-bd9fe5c9ff86" />
+<img width="1425" height="649" alt="image" src="https://github.com/user-attachments/assets/f1985f52-a541-458c-8212-2d64aedd2cc4" />
+<img width="1918" height="804" alt="image" src="https://github.com/user-attachments/assets/efac70d6-dfee-4779-ad27-87b7f68d4ea7" />
+
+<img width="1918" height="813" alt="image" src="https://github.com/user-attachments/assets/09069cdc-5447-4afc-a9f1-0a0ec524b0a5" />
+
+<img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/2546282f-4c9f-48cd-b256-d9c481e364f0" />
+
+
+As shown above, I used these combinations of fasteners and brackets. From the front view of the tensile tester, using info from the frame design section. I applied L brackets to all connections of the frame members. I also decided to have an additional member near the end of the leadscrew so the load cell can sit on top (I could not find the load cell STEP file). With the additional member, I decided to have inside corner brackets to support it internally. These specific models were cost-efficient and fit within the frame members. As for the fasteners, I used M8 socket screw heads for the L plates and M5 socket screw heads for the inside corner brackets. Both had reasonable depth and price.
+
+
+(40 M8 screws)
+
+
+(16 M5 screws)
+
+
+(8 L-Brackets Used)
+
+
+(4 Inside Corner Brackets)
+
+<img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/756f969f-bc25-434f-b0fc-2c9ff8b8ea41" />
+<img width="1918" height="1008" alt="image" src="https://github.com/user-attachments/assets/11fc3e1f-eed1-4a35-809c-ebd98c5f3c8a" />
+<img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/86d38a9b-81ea-4530-8b3d-c258fa241537" />
+<img width="1918" height="1006" alt="image" src="https://github.com/user-attachments/assets/31ee869b-50c4-406f-b41d-b890eba7e172" />
+
+<img width="1918" height="1008" alt="image" src="https://github.com/user-attachments/assets/22364e7e-c7f9-4ee6-b552-79fbd28f1d39" />
+
+
+
+Above shows all the supports as well as the fasteners used.
+
+
+## Work (Sebastian Mateus)
+[Work](a11_work.pdf)
+
+
+[Work pt 7](a11_7_work.pdf)
+
+
+In case the ZIP file on the assembly exceeds the GitHub allowable space. Below is the link to the Google Drive location. SolidWorks was being very buggy with the renaming files and GitHub not liking already set file names from SolidWorks.
+
+
+[Link, will need to download all of these](https://drive.google.com/drive/u/0/folders/1v-8aTL2HnMsP8tA3RaBzPIJepF_N-8xY?ths=true)
+
+### Bill of Materials and Labor Cost (Saeed Malik)
+
+
+| **Item Number** | **Quantity** | **Name**                                           | **Cost/Item** | **Cost** | **Purchase Link** |
+| :-------------: | :----------: | :------------------------------------------------- | ------------: | -------: | :--------------- |
+| 1530            | 5            | 1.50” X 3.00” T-Slotted Profile - Six Open T-Slots | $25.51        | $127.55  | [80/20](https://8020.net/1530.html) |
+| 95082A641       | 2            | Lead Screw Nut Flange                              | $37.06        | $74.12   | [McMaster-Carr](https://www.mcmaster.com/products/nuts/thread-size~3-8-8/) |
+| 95072A124       | 2            | 673 Bronze Stub Acme Nut, 3/8"-8                   | $28.72        | $57.44   | [McMaster-Carr](https://www.mcmaster.com/products/lead-screw-nuts/thread-size~3-8-8/) |
+| 99030A986       | 2            | 1018 Carbon Steel Precision Acme Lead Screw        | $11.40        | $22.80   | [McMaster-Carr](https://www.mcmaster.com/99030A986/) |
+| 91290A222       | 40           | M8 Black-Oxide Alloy Steel Socket Head Screws      | $0.28         | $11.20   | [McMaster-Carr](https://www.mcmaster.com/products/91290a222/) |
+| 29PA18          | 8            | 80/20 L-Bracket, 10 Series                          | $14.44        | $115.52  | [Grainger](https://www.grainger.com/product/80-20-L-Flat-Plate-L-Flat-Plate-29PA18) |
+| 29PA14          | 4            | 80/20 Slotted Inside-Corner Bracket                 | $10.92        | $43.68   | [Grainger](https://www.grainger.com/product/80-20-Inside-Corner-Bracket-Slotted-29PA14) |
+| 91290A222      | 16           | M5 x 0.8 mm Thread Screw                           | $0.13         | $2.08    | [McMaster-Carr](https://www.mcmaster.com/products/91290a222/) |
+|                 |              | **Total Cost**                                     |               | **$454.39** | |
+
+
+
+|                 |              |            |        |
+| --------------- | ------------ | ---------- | ------ |
+| **Design Cost** |              |            |        |
+| Person          | Hours Worked | Cost/Hour  | Cost   |
+| Sanjay Kashyap     | 15           | $35        | $525.00 |
+| Sebastian Mateus  | 8            | $35        | $280.00 |
+|                 |              | **Total Cost** | **$805.00** |
+
+**Total Project Cost: $1,259.39**
+
+- Material Cost: $454.39
+- Design Cost: $805.00
+
+## Communicate
+I have linked below the zip file, which includes all of our individual parts and the final assembly for this project.
+
+- <a href="./final a11.zip" download>Zip File</a>
+
+### Lessons Learned
+Sanjay and Sebastian spent around 16 hours each on this assignment, Saeed spent around 9 hours, for a total of 41 hours. Each of us learned a lot, Sanjay learned how to properly align things to mate in assemblies for CAD and how to apply the mesh in certain areas. Sebastian learned how to design the bearing mount, especially the calculations that go along with that. Saeed learned how to properly design for the thickness of frame using stress equations. All in all, we all spent a lot of time on this assignment and in turn learned a lot from it. 
