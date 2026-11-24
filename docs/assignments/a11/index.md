@@ -469,7 +469,7 @@ The percentages are low, meaning the results are stabilized. I will continue wit
 
 A change that I would suggest is adding triangular gusset reinforcements to the two upper interior corners of the assembly. These reinforcements would help transfer the forces from the top frame toward the vertical supports rather than requiring the top frame to carry the loads across its entire length. This should reduce bending stresses in the top frame. I would also expect the critical stress locations to potentially shift toward the gussets' attachment points or the connections between the top frame and vertical supports. 
 
-## Vertical Frame FEA
+## Vertical Frame FEA (Sanjay Kashyap)
 
 I originally wanted to open the original assembly and delete the extra components, but I needed to recreate it from scratch because the tope frame did not have any holes in it and used the same model as the vertical frame components. I then created a new assemble that only consisted of the vertical fram component and the top frame which transfers load onto the vertical frame components.
 
